@@ -18,8 +18,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* Lottie */
-<script>
-  // Učitaj animaciju, ali je odmah pauziraj i sakrij
   const encoderContainer = document.getElementById("encoderAnim");
 
   const encoderAnimation = lottie.loadAnimation({
@@ -27,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     renderer: 'svg',
     loop: false,
     autoplay: false,
-    path: 'assets/svg/nb-ms-encoder.json' // ili cijeli put ako treba
+    path: '/Users/zoranmikletic/Documents/WORK/NoBox/Web/GitHub/no-box/assets/svg/nb-ms-encoder.json' // ili cijeli put ako treba
   });
 
   // Pokreni na klik
@@ -36,4 +34,4 @@ document.addEventListener("DOMContentLoaded", function() {
     encoderContainer.style.display = "block";
     encoderAnimation.goToAndPlay(0, true);
   });
-</script>
+
