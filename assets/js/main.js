@@ -16,3 +16,24 @@ document.addEventListener("DOMContentLoaded", function() {
     observer.observe(section);
   });
 });
+
+/* Lottie */
+<script>
+  // Učitaj animaciju, ali je odmah pauziraj i sakrij
+  const encoderContainer = document.getElementById("encoderAnim");
+
+  const encoderAnimation = lottie.loadAnimation({
+    container: encoderContainer,
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: 'assets/svg/nb-ms-encoder.json' // ili cijeli put ako treba
+  });
+
+  // Pokreni na klik
+  document.getElementById("videoEncoderLink").addEventListener("click", (e) => {
+    e.preventDefault();
+    encoderContainer.style.display = "block";
+    encoderAnimation.goToAndPlay(0, true);
+  });
+</script>
