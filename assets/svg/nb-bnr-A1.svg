@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Friction - https://friction.graphics -->
+
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(360 151)">
+  <g>
+   <animateTransform attributeName="transform" values="0 0;0 0;727 0;727 0" type="translate" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.33;0.333333;1" calcMode="spline"/>
+   <g transform="translate(0 0)">
+    <g transform="rotate(0)">
+     <g transform="scale(1 1)">
+      <g transform="skewX(0) skewY(0)">
+       <g opacity="1" transform="translate(-360 -151)">
+        <g id="BannerA1">
+         <g transform="translate(5 5)">
+          <g transform="translate(0 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="300" y="0" stroke-linecap="round" id="backw" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(360 0)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-360 0)">
+               <rect stroke-linecap="round" id="backb" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="height" values="0;0;204;263.999;287.999;287.999;300;300;300;300;300;300;300;300" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333352 0.666666 0.666681;0.333333 0.333323 0.666667 0.666659;1 1 0 8.08749e-06;0.333333 0.333333 0.666667 0.666667;0.333334 0.333311 0.664878 0.832439;0.333001 0.75 0.6664 1;0.3332 6.40599e-14 0.6668 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.0566667;0.0733333;0.08;0.08;0.0833333;0.0844436;0.0866667;0.0933333;0.116667;0.186667;0.396667;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 83)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orange" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;120.005;240;599.995;720;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.323101 0 0.676899 1;0.355875 0 0.694843 0.25;0.446489 0.223244 0.666658 0.666673;0.333325 0.333339 0.666671 0.666663;0.333335 0.333332 0.666669 0.666665;0.333342 0.333327 0.553511 0.776756;0.305157 0.75 0.644125 1;0.323101 1.4877e-14 0.676899 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.03;0.04;0.0422926;0.0433333;0.0466667;0.05;0.06;0.0633333;0.0643741;0.0666667;0.07;0.0833333;0.133333;0.316667;1" calcMode="spline"/>
+                <animate attributeName="height" values="3;3;3;3;3;3;3;11.6405;20.2798;46.1998;158.52;201.72;210.359;219;219;219;219;219;219;219;219" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333264 0 0.666736 1;0.333471 0 0.666839 0.25;0.334264 0.167132 0.666666 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333334 0.333311 0.665736 0.832868;0.333161 0.75 0.666529 1;0.333264 3.11084e-13 0.666736 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.0566667;0.0733333;0.08;0.0822227;0.0833333;0.0866667;0.09;0.1;0.143333;0.16;0.163333;0.166667;0.167777;0.17;0.176667;0.196667;0.26;0.443333;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 80)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="7" y="0" stroke-linecap="round" id="white" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;205.721;514.279;720;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.325331 0 0.674669 1;0.350581 2.62192e-16 0.688226 0.25;0.00033222 0.000166089 0.999796 0.999796;0.333314 0.333351 0.666686 0.666649;0.000204129 0.000204137 0.999668 0.999834;0.311774 0.75 0.649419 1;0.325331 0 0.674669 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.0433333;0.0566667;0.0589436;0.06;0.0666667;0.0766667;0.0833333;0.0843898;0.0866667;0.09;0.103333;0.153333;0.336667;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37.3432 130.221)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="popdnaslov" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" font-size="21" stroke-width="10">
+                <text letter-spacing="-0.02em" word-spacing="0em">
+                 <tspan x="0">NoBox uses a professional video encoder </tspan>
+                 <tspan dy="1.2em" x="0">to turn camera input into a live stream in real time .</tspan>
+                 <tspan dy="1.2em" x="0"></tspan>
+                 <tspan dy="1.2em" x="0">No extra hardware, no complex setup. </tspan>
+                 <tspan dy="1.2em" x="0"></tspan>
+                 <tspan dy="1.2em" x="0">Flexibility, stability, and top-tier image quality.</tspan>
+                </text>
+               </g>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.163333;0.166667;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orangemask" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="-200;-200;-200;-200;-200;-200;-200;-200;-192.452;-184.904;-162.26;-64.136;-26.3959;-18.8484;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.11;0.146667;0.16;0.163333;0.165556;0.166667;0.17;0.173333;0.183333;0.226667;0.243333;0.246667;0.25;0.251111;0.253333;0.26;0.276667;0.333333;0.5;1" calcMode="spline"/>
+                <animate attributeName="height" values="200;200;200;200;200;200;200;200;192.452;184.904;162.26;64.136;26.3959;18.8484;11.3;11.3;11.3;11.3;11.3;11.3;11.3;11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.11;0.146667;0.16;0.163333;0.165556;0.166667;0.17;0.173333;0.183333;0.226667;0.243333;0.246667;0.25;0.251111;0.253333;0.26;0.276667;0.333333;0.5;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.163333;0.166667;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37 52)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="naslov" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" font-size="27.299999" font-weight="500" stroke-width="10">
+                <text letter-spacing="0em" word-spacing="0em">
+                 <tspan x="0">VIDEO ENCODER</tspan>
+                </text>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(32 31)">
+          <g transform="translate(316.925 11.445)">
+           <g transform="rotate(-180)">
+            <g transform="scale(0.8 0.8)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-32 -31)">
+               <g id="kamera">
+                <g transform="translate(32 31)">
+                 <g transform="translate(0 0)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(1 1)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-32 -31)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="Path" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="miter" d="M62.102 11.59C60.926 10.86 59.457 10.797 58.211 11.414C58.211 11.414 48 16.516 48 16.516C48 16.516 48 11 48 11C48 8.789 46.211 7 44 7C44 7 4 7 4 7C1.789 7 0 8.789 0 11C0 11 0 51 0 51C0 53.203 1.789 55 4 55C4 55 44 55 44 55C46.211 55 48 53.203 48 51C48 51 48 45.465 48 45.465C48 45.465 58.211 50.57 58.211 50.57C58.777 50.851 59.387 50.992 60 50.992C60.73 50.992 61.461 50.793 62.102 50.394C63.282 49.664 64 48.378 64 46.992C64 46.992 64 14.992 64 14.992C64 13.605 63.281 12.32 62.102 11.59ZM56 40.52C56 40.52 45.789 35.415 45.789 35.415C43.812 34.438 41.414 35.227 40.422 37.204C40.133 37.782 40.039 38.392 40.039 39.001C40.039 39.001 40 39.001 40 39.001C40 39.001 40 47.001 40 47.001C40 47.001 8 47.001 8 47.001C8 47.001 8 15 8 15C8 15 40 15 40 15C40 15 40 23 40 23C40 23 40.039 23 40.039 23C40.039 23.598 40.133 24.203 40.422 24.777C41.41 26.754 43.813 27.547 45.789 26.566C45.789 26.566 56 21.465 56 21.465C56 21.465 56 40.52 56 40.52Z" stroke-width="1"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(32 31.0005)">
+                 <g transform="translate(0 0)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(1 1)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-32 -31.0005)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="Path0" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="miter" d="M56 40.52C56 40.52 45.789 35.415 45.789 35.415C43.812 34.438 41.414 35.227 40.422 37.204C40.133 37.782 40.039 38.392 40.039 39.001C40.039 39.001 40 39.001 40 39.001C40 39.001 40 47.001 40 47.001C40 47.001 8 47.001 8 47.001C8 47.001 8 15 8 15C8 15 40 15 40 15C40 15 40 23 40 23C40 23 40.039 23 40.039 23C40.039 23.598 40.133 24.203 40.422 24.777C41.41 26.754 43.813 27.547 45.789 26.566C45.789 26.566 56 21.465 56 21.465C56 21.465 56 40.52 56 40.52Z" stroke-width="1"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(433.031 42.3741)">
+          <g transform="translate(14.6 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-433.031 -42.3741)">
+               <g id="cijev">
+                <g transform="translate(299 100)">
+                 <g transform="translate(98.4351 -57.7003)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug14" fill="none" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(475 305)">
+                 <g transform="translate(2.50191 -262.555)">
+                  <g transform="rotate(90)">
+                   <g transform="scale(1.4 1.4)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-475 -305)">
+                      <path fill-rule="evenodd" stroke-linecap="round" id="crta8" fill="rgba(0, 0, 230, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="round" d="M475 311.832C475 311.832 475 360 475 360" stroke-width="13.2"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(169.628 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug13" fill="rgba(204, 204, 204, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(520.911 26.445)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect height="32" y="0" stroke-linecap="round" id="encoder" fill="rgba(255, 120, 0, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="round" x="0" rx="0" ry="0" width="46.447" stroke-width="7"/>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(609 42.6008)">
+          <g transform="translate(25.7 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-609 -42.6008)">
+               <g id="ekodirano">
+                <g transform="translate(299 100)">
+                 <g transform="translate(280 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(290 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug16" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(300 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(310 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug18" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(320 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug19" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(330 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(340 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug21" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.246667;0.25;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(685.25 57.495)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect height="50.1" y="0" stroke-linecap="round" id="crtezmaska" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="7">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="392.747;392.747;392.747;392.747;392.747;392.747;392.747;392.747;367.057;289.987;84.469;33.0897;7.4;7.4;7.4;7.4;7.4;7.4;7.4;7.4" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.332731 0 0.667269 1;0.334545 0 0.668181 0.25;0.341353 0.170676 0.666667 0.666666;0.333333 0.333331 0.666667 0.666667;0.333333 0.333335 0.666667 0.666663;0.333333 0.333338 0.666667 0.666664;0.333333 0.333334 0.658647 0.829324;0.331819 0.75 0.665455 1;0.332731 0 0.667269 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.166667;0.223333;0.24;0.246667;0.248893;0.25;0.253333;0.263333;0.29;0.296667;0.3;0.301107;0.303333;0.31;0.326667;0.376667;0.53;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.0766667;0.0833333;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(360 151)">
+  <g>
+   <animateTransform attributeName="transform" values="-727 0;-727 0;0 0;0 0;0 0;727 0;727 0" type="translate" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" keyTimes="0;0.33;0.333333;0.66;0.663333;0.666667;1" calcMode="spline"/>
+   <g transform="translate(0 0)">
+    <g transform="rotate(0)">
+     <g transform="scale(1 1)">
+      <g transform="skewX(0) skewY(0)">
+       <g opacity="1" transform="translate(-360 -151)">
+        <g id="BannerA2">
+         <g transform="translate(5 5)">
+          <g transform="translate(0 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="300" y="0" stroke-linecap="round" id="backw" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(360 0)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-360 0)">
+               <rect stroke-linecap="round" id="backb" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="height" values="0;0;0;0;0;0;0;0;12.0007;23.9998;83.9999;240;276;287.999;300;300;300;300;300;300;300;300" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.3332 0 0.6668 1;0.3336 0 0.666999 0.25;0.335122 0.167561 0.666666 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333332 0.666667 0.666676;0.333333 0.333324 0.666667 0.66666;0.333333 0.333341 0.666667 0.666667;0.333333 0.333358 0.666667 0.666644;0.333334 0.333311 0.664878 0.832439;0.333001 0.75 0.6664 1;0.3332 6.40599e-14 0.6668 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.223333;0.296667;0.32;0.33;0.332223;0.333333;0.336667;0.34;0.356667;0.4;0.41;0.413333;0.416667;0.417777;0.42;0.423333;0.436667;0.48;0.61;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 83)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orange" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;0;0;120.005;480;599.995;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.323101 0 0.676899 1;0.355875 0 0.694843 0.25;0.446489 0.223244 0.666658 0.666673;0.333331 0.333335 0.666665 0.666668;0.333329 0.333337 0.666675 0.666661;0.333342 0.333327 0.553511 0.776756;0.305157 0.75 0.644125 1;0.323101 1.4877e-14 0.676899 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.273333;0.35;0.37;0.373333;0.375626;0.376667;0.38;0.39;0.393333;0.396667;0.397707;0.4;0.41;0.44;0.56;1" calcMode="spline"/>
+                <animate attributeName="height" values="3;3;3;3;3;3;3;3;3;11.6405;20.2798;63.48;175.8;201.72;210.359;219;219;219;219;219;219;219;219" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333264 0 0.666736 1;0.333471 0 0.666839 0.25;0.334264 0.167132 0.666666 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333332 0.666667 0.666676;0.333333 0.333324 0.666667 0.66666;0.333333 0.333341 0.666667 0.666667;0.333333 0.333358 0.666667 0.666644;0.333334 0.333311 0.665736 0.832868;0.333161 0.75 0.666529 1;0.333264 3.11084e-13 0.666736 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.276667;0.37;0.4;0.41;0.413333;0.415556;0.416667;0.42;0.423333;0.44;0.483333;0.493333;0.496667;0.5;0.501111;0.503333;0.506667;0.52;0.556667;0.666667;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 80)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="7" y="0" stroke-linecap="round" id="white" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;0;0;205.721;514.279;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.325331 0 0.674669 1;0.350581 2.62192e-16 0.688226 0.25;0.00033222 0.000166089 0.999796 0.999796;0.333314 0.333351 0.666686 0.666649;0.000204129 0.000204137 0.999668 0.999834;0.311774 0.75 0.649419 1;0.325331 0 0.674669 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.283333;0.363333;0.383333;0.39;0.392277;0.393333;0.4;0.41;0.416667;0.417723;0.42;0.43;0.463333;0.58;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37.3432 124.321)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="popdnaslov" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" font-size="21" stroke-width="10">
+                <text letter-spacing="-0.02em" word-spacing="0em">
+                 <tspan x="0">Network bonding is the core of reliable live streaming </tspan>
+                 <tspan dy="1.2em" x="0"></tspan>
+                 <tspan dy="1.2em" x="0">NoBox excels at it. </tspan>
+                 <tspan dy="1.2em" x="0">Multiple internet links (cellular, Wi-Fi, Ethernet) are merged </tspan>
+                 <tspan dy="1.2em" x="0">into one stable channel. </tspan>
+                 <tspan dy="1.2em" x="0"></tspan>
+                 <tspan dy="1.2em" x="0">If one drops, the others keep going - without interruption.</tspan>
+                </text>
+               </g>
+               <animate attributeName="opacity" values="0;0;1;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1" keyTimes="0;0.496667;0.5;0.603333;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orangemask" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="-200;-200;-200;-200;-200;-200;-200;-200;-200;-192.452;-184.904;-162.26;-64.136;-26.3959;-18.8484;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.333333;0.443333;0.48;0.493333;0.496667;0.498889;0.5;0.503333;0.506667;0.516667;0.56;0.576667;0.58;0.583333;0.584444;0.586667;0.59;0.6;0.63;0.723333;1" calcMode="spline"/>
+                <animate attributeName="height" values="200;200;200;200;200;200;200;200;200;192.452;184.904;162.26;64.136;26.3959;18.8484;11.3;11.3;11.3;11.3;11.3;11.3;11.3;11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.333333;0.443333;0.48;0.493333;0.496667;0.498889;0.5;0.503333;0.506667;0.516667;0.56;0.576667;0.58;0.583333;0.584444;0.586667;0.59;0.6;0.63;0.723333;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.496667;0.5;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37 52)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="naslov" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" font-size="27.299999" font-weight="500" stroke-width="10">
+                <text letter-spacing="0em" word-spacing="0em">
+                 <tspan x="0">NETWORK BONDING</tspan>
+                </text>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(433.031 42.3741)">
+          <g transform="translate(174.6 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(2.3 2.3)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-433.031 -42.3741)">
+               <g id="cijev">
+                <g transform="translate(299 100)">
+                 <g transform="translate(98.4351 -57.7003)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug14" fill="none" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(475 305)">
+                 <g transform="translate(2.32527 -262.555)">
+                  <g transform="rotate(90)">
+                   <g transform="scale(1.4 1.4)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-475 -305)">
+                      <path fill-rule="evenodd" stroke-linecap="round" id="crta8" fill="rgba(0, 0, 230, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="round" d="M475 327.207C475 327.207 475 360 475 360" stroke-width="13.2"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(151.252 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug13" fill="rgba(204, 204, 204, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(387 42.6008)">
+          <g transform="translate(0 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-387 -42.6008)">
+               <g id="Group">
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 0)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano1">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(280 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(300 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(330 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 17)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano0">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(290 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug16" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(300 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(320 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug19" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(330 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 -17)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano2">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(280 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(310 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug18" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(330 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(340 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug21" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(387 42.6008)">
+          <g transform="translate(41.9 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-387 -42.6008)">
+               <g id="Group0">
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 0)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano1">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(280 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(300 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(310 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug18" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(320 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug19" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(340 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug21" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 17)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano0">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(290 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug16" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(320 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug19" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(340 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug21" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(609 42.6008)">
+                 <g transform="translate(-222 -17)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.7 0.7)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g opacity="1" transform="translate(-609 -42.6008)">
+                      <g id="ekodirano2">
+                       <g transform="translate(299 100)">
+                        <g transform="translate(280 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(290 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug16" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(300 -57.555)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(310 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug18" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                       <g transform="translate(299 100)">
+                        <g transform="translate(330 -57.2434)">
+                         <g transform="rotate(0)">
+                          <g transform="scale(0.16 0.145)">
+                           <g transform="skewX(0) skewY(0)">
+                            <g transform="translate(-299 -100)">
+                             <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                             <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.58;0.583333;1" calcMode="spline"/>
+                            </g>
+                           </g>
+                          </g>
+                         </g>
+                        </g>
+                       </g>
+                      </g>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(685.25 57.495)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect height="50.1" y="0" stroke-linecap="round" id="crtezmaska" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="7">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="392.747;392.747;392.747;392.747;392.747;392.747;392.747;392.747;392.747;367.057;289.987;84.469;33.0897;7.4;7.4;7.4;7.4;7.4;7.4;7.4" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.332731 0 0.667269 1;0.334545 0 0.668181 0.25;0.341353 0.170676 0.666667 0.666666;0.333333 0.333331 0.666667 0.666667;0.333333 0.333335 0.666667 0.666663;0.333333 0.333338 0.666667 0.666664;0.333333 0.333334 0.658647 0.829324;0.331819 0.75 0.665455 1;0.332731 0 0.667269 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.393333;0.52;0.563333;0.576667;0.58;0.582226;0.583333;0.586667;0.596667;0.623333;0.63;0.633333;0.63444;0.636667;0.646667;0.673333;0.753333;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.41;0.416667;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(360 151)">
+  <g>
+   <animateTransform attributeName="transform" values="-727 0;-727 0;0 0;0 0" type="translate" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667" keyTimes="0;0.66;0.666667;1" calcMode="spline"/>
+   <g transform="translate(0 0)">
+    <g transform="rotate(0)">
+     <g transform="scale(1 1)">
+      <g transform="skewX(0) skewY(0)">
+       <g opacity="1" transform="translate(-360 -151)">
+        <g id="BannerA3">
+         <g transform="translate(5 5)">
+          <g transform="translate(0 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="300" y="0" stroke-linecap="round" id="backw" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(360 0)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-360 0)">
+               <rect stroke-linecap="round" id="backb" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="height" values="0;0;0;0;0;0;0;0;0;12.0007;23.9998;83.9999;240;276;287.999;300;300;300;300;300;300;300" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.3332 0 0.6668 1;0.3336 0 0.666999 0.25;0.335122 0.167561 0.666666 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333332 0.666667 0.666676;0.333333 0.333324 0.666667 0.66666;0.333333 0.333341 0.666667 0.666667;0.333333 0.333358 0.666667 0.666644;0.333334 0.333311 0.664878 0.832439;0.333001 0.75 0.6664 1;0.3332 6.40599e-14 0.6668 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.446667;0.593333;0.643333;0.66;0.663333;0.665556;0.666667;0.67;0.673333;0.69;0.733333;0.743333;0.746667;0.75;0.75111;0.753333;0.76;0.776667;0.833333;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 83)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orange" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="y" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;0;0;120.005;480;599.995;720;720;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.323101 0 0.676899 1;0.355875 0 0.694843 0.25;0.446489 0.223244 0.666658 0.666673;0.333331 0.333335 0.666665 0.666668;0.333329 0.333337 0.666675 0.666661;0.333342 0.333327 0.553511 0.776756;0.305157 0.75 0.644125 1;0.323101 1.4877e-14 0.676899 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.52;0.66;0.696667;0.706667;0.708959;0.71;0.713333;0.723333;0.726667;0.73;0.731041;0.733333;0.736667;0.75;0.77;0.803333;0.92625;1" calcMode="spline"/>
+                <animate attributeName="height" values="3;3;3;3;3;3;3;3;3;11.6405;20.2798;63.48;175.8;201.72;210.359;219;219;219;219;219;219;219" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333264 0 0.666736 1;0.333471 0 0.666839 0.25;0.334264 0.167132 0.666666 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333332 0.666667 0.666676;0.333333 0.333324 0.666667 0.66666;0.333333 0.333341 0.666667 0.666667;0.333333 0.333358 0.666667 0.666644;0.333334 0.333311 0.665736 0.832868;0.333161 0.75 0.666529 1;0.333264 3.11084e-13 0.666736 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.5;0.666667;0.723333;0.74;0.746667;0.748889;0.75;0.753333;0.756667;0.773333;0.816667;0.826667;0.83;0.833333;0.834444;0.836667;0.84;0.853333;0.89;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 80)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-5 -5)">
+               <rect height="7" y="0" stroke-linecap="round" id="white" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="10">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="0;0;0;0;0;0;0;0;205.721;514.279;720;720;720;720;720;720;720" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.325331 0 0.674669 1;0.350581 2.62192e-16 0.688226 0.25;0.00033222 0.000166089 0.999796 0.999796;0.333314 0.333351 0.666686 0.666649;0.000204129 0.000204137 0.999668 0.999834;0.311774 0.75 0.649419 1;0.325331 0 0.674669 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.523333;0.67;0.71;0.723333;0.72561;0.726667;0.733333;0.743333;0.75;0.751056;0.753333;0.756667;0.77;0.82;1" calcMode="spline"/>
+               </rect>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37.3432 136.421)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="popdnaslov" fill="rgba(255, 255, 255, 1)" stroke="none" stroke-linejoin="round" font-size="21" stroke-width="10">
+                <text letter-spacing="-0.02em" word-spacing="0em">
+                 <tspan x="0">The stream goes straight to a cloud server - scalable, </tspan>
+                 <tspan dy="1.2em" x="0">accessible, and under your control. </tspan>
+                 <tspan dy="1.2em" x="0"></tspan>
+                 <tspan dy="1.2em" x="0">Delivered via modern protocols (like SRT), </tspan>
+                 <tspan dy="1.2em" x="0">ready to be received in a browser, player, or broadcast system.</tspan>
+                </text>
+               </g>
+               <animate attributeName="opacity" values="0;0;1;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1" keyTimes="0;0.83;0.833333;0.95;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(0 300)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect stroke-linecap="round" id="orangemask" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="round" x="0" rx="0" ry="0" width="720" stroke-width="10">
+                <animate attributeName="y" values="-200;-200;-200;-200;-200;-200;-200;-200;-200;-192.452;-184.904;-162.26;-64.136;-26.3959;-18.8484;-11.3;-11.3;-11.3;-11.3;-11.3;-11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.556667;0.74;0.803333;0.823333;0.83;0.832223;0.833333;0.836667;0.84;0.85;0.893333;0.91;0.913333;0.916667;0.917777;0.92;0.926667;0.943333;1" calcMode="spline"/>
+                <animate attributeName="height" values="200;200;200;200;200;200;200;200;200;192.452;184.904;162.26;64.136;26.3959;18.8484;11.3;11.3;11.3;11.3;11.3;11.3" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333281 0 0.666719 1;0.333439 0 0.666798 0.25;0.334044 0.167022 0.666667 0.666689;0.333333 0.333356 0.666667 0.666642;0.333333 0.333333 0.666667 0.666659;0.333333 0.33334 0.666667 0.666676;0.333333 0.333324 0.666667 0.666668;0.333333 0.333358 0.666667 0.666644;0.333333 0.333311 0.665956 0.832978;0.333202 0.75 0.666561 1;0.333281 0 0.666719 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.556667;0.74;0.803333;0.823333;0.83;0.832223;0.833333;0.836667;0.84;0.85;0.893333;0.91;0.913333;0.916667;0.917777;0.92;0.926667;0.943333;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.83;0.833333;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(0 0)">
+          <g transform="translate(37 52)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(0 0)">
+               <g font-family="Rubik Light, Rubik" stroke-linecap="round" text-anchor="start" id="naslov" fill="rgba(204, 204, 204, 1)" stroke="none" stroke-linejoin="round" font-size="27.299999" font-weight="500" stroke-width="10">
+                <text letter-spacing="0em" word-spacing="0em">
+                 <tspan x="0">CLOUD BACKHAND</tspan>
+                </text>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(433.031 42.3741)">
+          <g transform="translate(205.072 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-433.031 -42.3741)">
+               <g id="cijev">
+                <g transform="translate(299 100)">
+                 <g transform="translate(98.4351 -57.7003)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug14" fill="none" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(475 305)">
+                 <g transform="translate(2.50191 -262.555)">
+                  <g transform="rotate(90)">
+                   <g transform="scale(1.4 1.4)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-475 -305)">
+                      <path fill-rule="evenodd" stroke-linecap="round" id="crta8" fill="rgba(0, 0, 230, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="round" d="M475 311.832C475 311.832 475 360 475 360" stroke-width="13.2"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(169.628 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug13" fill="rgba(204, 204, 204, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(609 42.6008)">
+          <g transform="translate(-148.8 0)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g opacity="1" transform="translate(-609 -42.6008)">
+               <g id="ekodirano">
+                <g transform="translate(299 100)">
+                 <g transform="translate(280 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug15" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(290 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug16" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(300 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug17" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(310 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug18" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(320 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug19" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(330 -57.2434)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug20" fill="rgba(204, 204, 204, 1)" stroke="rgba(204, 204, 204, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+                <g transform="translate(299 100)">
+                 <g transform="translate(340 -57.555)">
+                  <g transform="rotate(0)">
+                   <g transform="scale(0.16 0.145)">
+                    <g transform="skewX(0) skewY(0)">
+                     <g transform="translate(-299 -100)">
+                      <path fill-rule="evenodd" stroke-linecap="butt" id="krug21" fill="rgba(255, 120, 0, 1)" stroke="rgba(255, 120, 0, 1)" stroke-linejoin="miter" d="M349 100C349 127.614 326.614 150 299 150C271.386 150 249 127.614 249 100C249 72.3858 271.386 50 299 50C326.614 50 349 72.3858 349 100Z" stroke-width="27.4"/>
+                      <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.913333;0.916667;1" calcMode="spline"/>
+                     </g>
+                    </g>
+                   </g>
+                  </g>
+                 </g>
+                </g>
+               </g>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(8 8)">
+          <g transform="translate(538.86 30.7606)">
+           <g transform="rotate(0)">
+            <g transform="scale(3 3)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-8 -8)">
+               <path fill-rule="evenodd" stroke-linecap="butt" id="Path1" fill="rgba(255, 120, 0, 1)" stroke="none" stroke-linejoin="miter" d="M8 2C10.2091 2 12 3.79086 12 6C12 6 12 7 12 7C14.2091 7 16 8.79086 16 11C16 11 16 14 16 14C16 14 9 14 9 14C9 14 11 12 11 12C11 12 11 11 11 11C11 11 9 11 9 11C9 11 9 8 9 8C9 8 7 8 7 8C7 8 7 11 7 11C7 11 5 11 5 11C5 11 5 12 5 12C5 12 7 14 7 14C7 14 0 14 0 14C0 14 0 10 0 10C0 7.79086 1.79086 6 4 6C4 3.79086 5.79086 2 8 2Z" stroke-width="1"/>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.92;0.923333;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+         <g transform="translate(5 5)">
+          <g transform="translate(685.25 57.495)">
+           <g transform="rotate(180)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect height="50.1" y="0" stroke-linecap="round" id="crtezmaska" fill="rgba(20, 20, 20, 1)" stroke="none" stroke-linejoin="round" rx="0" ry="0" stroke-width="7">
+                <animate attributeName="x" values="0;0;0" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;1" calcMode="spline"/>
+                <animate attributeName="width" values="392.747;392.747;392.747;392.747;392.747;392.747;392.747;392.747;392.747;367.057;315.678;110.16;33.0897;7.4;7.4;7.4;7.4;7.4" fill="freeze" dur="6s" keySplines="0 0 1 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667;0.332731 0 0.667269 1;0.334545 0 0.668181 0.25;0.341353 0.170676 0.666667 0.666666;0.333333 0.333336 0.666667 0.666662;0.333333 0.333337 0.666667 0.666665;0.333333 0.333333 0.666667 0.666669;0.333333 0.333334 0.658647 0.829324;0.331819 0.75 0.665455 1;0.332731 0 0.667269 1;0.333333 0.333333 0.666667 0.666667;0.333333 0.333333 0.666667 0.666667" keyTimes="0;0;0.616667;0.82;0.886667;0.906667;0.913333;0.91556;0.916667;0.92;0.926667;0.953333;0.963333;0.966667;0.967774;0.97;0.976667;1" calcMode="spline"/>
+               </rect>
+               <animate attributeName="opacity" values="0;0;1;1" fill="freeze" dur="6s" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" keyTimes="0;0.743333;0.75;1" calcMode="spline"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs/>
+</svg>

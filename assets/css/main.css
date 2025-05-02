@@ -243,12 +243,12 @@ section {
   /*! justify-content: center; */
   /*! align-items: center; */
   position: absolute;
-  left: -5.1vw;
-  transform: translateY(5%);
+  left: 0.5vw;
+  transform: translateY(13%);
   z-index: 1;
   color: #141414;
   padding-left: 1vw;
-  scale: 69%;
+  scale: 90%;
 }
 
 .svg-animacija-l {
