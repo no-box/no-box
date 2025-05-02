@@ -25,21 +25,35 @@
 
         <!-- Sekcija 2 -->
         <section class="sekcija-bijela" id="stranica-2">
+
+          <!-- Linkovi koji pokreću animacije -->
           <div class="linkovi-c">
             <div class="linkovi-linija">
-              <!-- Link koji pokreće animaciju -->
-              <a href="assets/svg/nb-ms-encoder.json" id="videoEncoderLink">🔤 Video Encoder</a>
-              <a href="#" class="mali-link">🔤 Network Bonding</a>
-              <a href="#" class="mali-link">🔤 Cloud Backend</a>
+              <a href="#" id="videoEncoderLink">🔤 Video Encoder</a>
+              <a href="#" id="networkBondingLink">🔤 Network Bonding</a>
+              <a href="#" id="cloudBackendLink">🔤 Cloud Backend</a>
             </div>
           </div>
-            <!-- Lottie player -->
-          <div id="encoderAnim" style="width: 780px; height: 300px; display: none;">
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+        
+          <!-- Lottie animacije (pojedinačne, nevidljive na startu) -->
+          <div id="encoderAnim" class="lottie-anim" style="width: 780px; height: 300px; display: none;"></div>
+          <div id="bondingAnim" class="lottie-anim" style="width: 780px; height: 300px; display: none;"></div>
+          <div id="backendAnim" class="lottie-anim" style="width: 780px; height: 300px; display: none;"></div>
+        
+          <!-- SVG background -->
+          <div class="svg-back">
+            <object type="image/svg+xml" data="assets/svg/nb-bgd-b1.svg"></object>
           </div>
-            <!-- SVG bgd -->
-          <div class="svg-back"><object type="image/svg+xml" data="assets/svg/nb-bgd-b1.svg"></object></div>
+        
         </section>
+        
+        <!-- Lottie player -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.2/lottie.min.js"></script>
+        
+        
+        
+
+
         <div class="white-space"></div>
 
         <!-- Sekcija 3 -->

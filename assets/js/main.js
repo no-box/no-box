@@ -18,20 +18,60 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* Lottie */
-  const encoderContainer = document.getElementById("encoderAnim");
 
-  const encoderAnimation = lottie.loadAnimation({
-    container: encoderContainer,
+
+  // Definicije animacija (učitane unaprijed, ali autoplay: false)
+  const encoderAnim = lottie.loadAnimation({
+    container: document.getElementById("encoderAnim"),
     renderer: 'svg',
     loop: false,
     autoplay: false,
-    path: '/Users/zoranmikletic/Documents/WORK/NoBox/Web/GitHub/no-box/assets/svg/nb-ms-encoder.json' // ili cijeli put ako treba
+    path: "assets/svg/nb-ms-encoder.json"
   });
 
-  // Pokreni na klik
+  const bondingAnim = lottie.loadAnimation({
+    container: document.getElementById("bondingAnim"),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: "assets/svg/nb-ms-bonding.json"
+  });
+
+  const backendAnim = lottie.loadAnimation({
+    container: document.getElementById("backendAnim"),
+    renderer: 'svg',
+    loop: false,
+    autoplay: false,
+    path: "assets/svg/nb-ms-backend.json"
+  });
+
+  // Utility: sakrij sve prije pokretanja
+  function hideAllAnimations() {
+    document.querySelectorAll(".lottie-anim").forEach(div => {
+      div.style.display = "none";
+    });
+  }
+
+  // Klik handleri
   document.getElementById("videoEncoderLink").addEventListener("click", (e) => {
     e.preventDefault();
-    encoderContainer.style.display = "block";
-    encoderAnimation.goToAndPlay(0, true);
+    hideAllAnimations();
+    document.getElementById("encoderAnim").style.display = "block";
+    encoderAnim.goToAndPlay(0, true);
   });
+
+  document.getElementById("networkBondingLink").addEventListener("click", (e) => {
+    e.preventDefault();
+    hideAllAnimations();
+    document.getElementById("bondingAnim").style.display = "block";
+    bondingAnim.goToAndPlay(0, true);
+  });
+
+  document.getElementById("cloudBackendLink").addEventListener("click", (e) => {
+    e.preventDefault();
+    hideAllAnimations();
+    document.getElementById("backendAnim").style.display = "block";
+    backendAnim.goToAndPlay(0, true);
+  });
+
 
