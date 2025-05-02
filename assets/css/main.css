@@ -369,15 +369,5 @@ section {
 }
 
 .lottie-anim {
-  position: absolute;
-  top: 0;
-  left: 0;
   z-index: 10;
-  pointer-events: none; /* ako želiš da klikovi prolaze kroz animaciju */
 }
-
-a {
-  cursor: pointer;
-}
-
-
