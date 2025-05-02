@@ -1,0 +1,152 @@
+/* Reset i osnovni stilovi */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Glavni kontejner za cijelu stranicu */
+.stranica-kontejner {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* Pozadinski SVG (crvena) */
+.pozadina-svg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #800000; /* Tamno crvena */
+}
+
+/* Sekcije stranice */
+.sekcija {
+    width: 100%;
+    height: 100vh; /* Svaka sekcija puna visina ekrana */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Naslovi (žuti okviri) */
+.veliki-naslov {
+    width: 90vw;
+    max-width: 90%;
+    height: 12vw;
+    background-color: #decd87; /* Žućkasta */
+    margin: 1vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5vw;
+    transform: translatey(-200%);
+}
+
+.veliki-naslov2 {
+    width: 90vw;
+    max-width: 90%;
+    height: 12vw;
+    background-color: #f10089; /* Žućkasta */
+    margin: 1vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5vw;
+    transform: translatey(140%);
+}
+
+/* Tekst unutar naslova */
+.naslov-tekst {
+    font-size: 5vw; /* Responsivan font */
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Statični tekst (plavi okvir) */
+.staticni-tekst {
+    width: 90%;
+    max-width: 23vw;
+    height: 11vw;
+    background-color: #8ade87; /* Žućkasta */
+    margin: 6vw 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 5vw;
+    transform: translateY(-109%);
+}
+
+/* Linkovi (plavi okvir) */
+.linkovi {
+    width: 90%;
+    max-width: 23vw;
+    height: 11vw;
+    background-color: #87cbde; /* Žućkasta */
+    margin: 6vw 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+    transform: translateY(-109%);
+}
+
+/* Sadržaj linkova (žuti okvir) */
+.izlog {
+    width: 90%;
+    max-width: 32vw;
+    height: 21vw;
+    background-color: #de87bd; /* Žućkasta */
+    margin: 6vw 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 58vw;
+    transform: translateY(-25%);
+}
+
+/* SVG animacija (narančasti okvir) */
+.svg-animacija {
+    width: 90%;
+    max-width: 23vw;
+    height: 11vw;
+    background-color: #87deb4; /* Žućkasta */
+    margin: 6vw 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 30vw;
+    transform: translateY(-1%);
+}
+
+/* Linkovi u liniji */
+.linkovi-linija {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.linkovi-linija a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.white-space { height: 5vh; background: white;}

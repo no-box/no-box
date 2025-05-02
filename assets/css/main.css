@@ -1,0 +1,369 @@
+/* CSS */
+html, body {
+  height: 100%;
+  margin: 0;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background: #000;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* Glavni kontejner za cijelu stranicu */
+.stranica-kontejner {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  background-color: #141414;
+}
+
+/* Pozadinski SVG (crvena) */
+.pozadina-svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*! z-index: -1; */
+  background-color: #800000; /* Tamno crvena */
+}
+
+/* Sekcije stranice */
+.sekcija {
+  width: 100%;
+  height: 100vh; /* Svaka sekcija puna visina ekrana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #141414;
+  scroll-snap-align: start;
+}
+
+.sekcija-bijela {
+  width: 100%;
+  height: 100vh; /* Svaka sekcija puna visina ekrana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #cccccc;
+  scroll-snap-align: start;
+}
+
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+/* Naslovi (žuti okviri) */
+.veliki-naslov {
+  width: 96vw;
+  /*! max-width: 90%; */
+  height: 17vw;
+  /*! background-color: #c6aa394d; */ /* Žućkasta */
+  /*! margin: 1vw 0; */
+  /*! display: flex; */
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  position: absolute;
+  left: 0.5vw;
+  transform: translatey(-117%);
+  z-index: 5;
+}
+
+.veliki-naslov2 {
+  width: 96vw;
+  /*! max-width: 90%; */
+  height: 17vw;
+  /*! background-color: #f1008936; */ /* Žućkasta */
+  /*! margin: 1vw 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0.5vw;
+  transform: translatey(116%);
+  z-index: 3;
+}
+
+/* Tekst unutar naslova */
+.naslov-tekst-bg {
+  font-size: 21em; /* Responsivan font */
+  color: #cccccc;
+  text-align: center;
+  font-weight: 100;
+  /*! top: -17vw; */
+  left: 43vw;
+  position: absolute;
+  transform: translateY(-86%);
+  letter-spacing: -1.2vw;
+}
+
+.naslov-tekst-bd {
+  font-size: 19em; /* Responsivan font */
+  color: #cccccc;
+  text-align: center;
+  font-weight: 600;
+  /*! top: -19vw; */
+  left: 18.5vw;
+  position: absolute;
+  transform: translateY(0%);
+}
+
+.naslov-tekst-cg {
+  font-size: 22em; /* Responsivan font */
+  color: #141414;
+  text-align: center;
+  font-weight: bold;
+  left: -1vw;
+  position: absolute;
+  font-weight: 600;
+  letter-spacing: -1vw;
+  transform: translateY(-87%);
+}
+
+.naslov-tekst-cd {
+  font-size: 17.5em; /* Responsivan font */
+  color: #141414;
+  text-align: center;
+  font-weight: bold;
+  left: 0.5vw;
+  position: absolute;
+  /*! top: -13vw; */
+  font-weight: 100;
+  letter-spacing: -0.8vw;
+  transform: translateY(5%);
+}
+
+/* Statični tekst (plavi okvir) */
+.staticni-tekst-c {
+  width: 90%;
+  max-width: 50vw;
+  height: 5vw;
+  background-color: #ff7800; /* Žućkasta */
+  display: flow-root;
+  position: absolute;
+  left: 1.2vw;
+  transform: translateY(-156%);
+  z-index: 1;
+  padding-left: 1.1vw;
+  color: #141414;
+  word-spacing: -0.08vw;
+  line-height: 0.5vw;
+  padding-top: 0.5vw;
+  letter-spacing: 0.04vw;
+}
+
+.staticni-tekst-b {
+  width: 90%;
+  max-width: 49vw;
+  height: 4.8vw;
+  background-color: #ff7800; /* Žućkasta */
+  display: flow-root;
+  position: absolute;
+  left: 46.5vw;
+  transform: translateY(-163%);
+  z-index: 1;
+  padding-right: 1vw;
+  color: #141414;
+  text-align: right;
+  line-height: 0.4vw;
+  padding-top: 0.5vw;
+  /*! word-spacing: -0.05vw; */
+}
+
+/* Linkovi (plavi okvir) */
+.linkovi-b {
+  width: 90%;
+  max-width: 50vw;
+  height: 1.4vw;
+  /*! background-color: #87cbde7d; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  display: flex;
+  justify-content: right;
+  /*! align-items: inherit; */
+  position: absolute;
+  left: 46.5vw;
+  transform: translateY(884%);
+  z-index: 1;
+  /*! padding-right: 2vw; */
+  color: #cccccc;
+  text-align: right;
+}
+
+.linkovi-c {
+  width: 90%;
+  max-width: 51vw;
+  height: 1.4vw;
+  /*! background-color: #0ab7e83d; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+  position: absolute;
+  left: 3.3vw;
+  transform: translateY(924%);
+  z-index: 1;
+  color: #141414;
+}
+
+/* Sadržaj linkova (žuti okvir) */
+.izlog-l {
+  width: 90%;
+  max-width: 46vw;
+  /*! background-color: #de87bd5c; */ /* Žućkasta */
+  position: absolute;
+  left: 0.5vw;
+  transform: translateY(-11.5%);
+  z-index: 5;
+}
+
+.izlog-d {
+  width: 90%;
+  max-width: 46vw;
+  /*! background-color: #4511ff4d; */ /* Žućkasta */
+  position: absolute;
+  left: 53vw;
+  transform: translateY(-11%);
+  z-index: 5;
+}
+
+/* SVG animacija (narančasti okvir) */
+.svg-animacija-d {
+  width: 90%;
+  max-width: 50vw;
+  height: 18vw;
+  /*! background-color: #10935445; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  display: inline-flex;
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  position: absolute;
+  left: -5.1vw;
+  transform: translateY(5%);
+  z-index: 1;
+  color: #141414;
+  padding-left: 1vw;
+  scale: 69%;
+}
+
+.svg-animacija-l {
+  width: 90%;
+  max-width: 50vw;
+  height: 17vw;
+  /*! background-color: #87deb45e; */ /* Žućkasta */
+  margin: 6vw 0;
+  display: inline-flex;
+  justify-content: right;
+  /*! align-items: revert; */
+  position: absolute;
+  left: 45.3vw;
+  transform: translateY(13%);
+  z-index: 1;
+  color: #141414;
+  padding-left: 1vw;
+  text-align: right;
+}
+
+.svg-back {
+  width: 100vw;
+  /*! max-width: 99vw; */
+  /*! height: 100vh; */
+  /*! background-color: #87deb4; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  /*! display: inline-flex; */
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  position: absolute;
+  /*! left: 1vw; */
+  /*! transform: translateY(-10%); */
+  z-index: 0;
+  /*! scale: 116%; */
+}
+
+/* Linkovi u liniji */
+.linkovi-linija {
+  display: flex;
+  justify-content: space-around;
+  /*! margin-top: 10px; */
+  /*! left: 1vw; */
+  padding-left: 1vw;
+}
+
+.linkovi-linija a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.1vw;
+}
+
+.linkovi-linija-b {
+  display: flex;
+  justify-content: right;
+  /*! margin-top: 10px; */
+  /*! left: 1vw; */
+  padding-right: 1vw;
+}
+
+.linkovi-linija-b a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+.white-space { height: 5vh; background: white;z-index: 2;position: relative;}
+
+
+
+/* ===== Contact Form Styles ===== */
+.contact-form {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid;
+  background: transparent;
+  font-family: inherit;
+}
+
+.panel-light .contact-form input,
+.panel-light .contact-form textarea {
+  border-color: #000;
+  color: #000;
+}
+
+.panel-dark .contact-form input,
+.panel-dark .contact-form textarea {
+  border-color: #fff;
+  color: #fff;
+}
+
+.contact-form button {
+  padding: 1rem;
+  background: transparent;
+  border: 2px solid;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.panel-light .contact-form button {
+  border-color: #000;
+  color: #000;
+}
+
+.panel-dark .contact-form button {
+  border-color: #fff;
+  color: #fff;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Friction - https://friction.graphics -->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 780 300">
+ <g transform="translate(5 5)">
+  <g transform="translate(0 -0.529672)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(-5 -5)" opacity="1">
+       <rect y="0" x="0" fill="rgba(204, 204, 204, 1)" stroke="none" id="backw" rx="0" stroke-linejoin="round" width="780" stroke-linecap="round" height="300" ry="0" stroke-width="10"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(781.15 149.735)">
+  <g transform="translate(0 0)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(-781.15 -149.735)" opacity="1">
+       <g id="Za1a">
+        <g transform="translate(390 300)">
+         <g transform="translate(0 -0.529672)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-390 -300)">
+              <path fill="rgba(20, 20, 20, 1)" stroke="none" id="Backbz" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0;0.0666667;1" dur="25s" values="M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.326667;0.33;1" dur="25s" values="1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.0666667;0.1;1" dur="25s" values="M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.326667;0.33;1" dur="25s" values="1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(315.664 114.688)">
+         <g transform="translate(26.5603 140)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-315.664 -114.688)">
+              <g fill="rgba(255, 255, 255, 1)" stroke="none" id="popdnaslovD" stroke-linejoin="round" font-size="24.000002" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="start">
+               <text letter-spacing="-0.02em" word-spacing="0.025em">
+                <tspan x="0">NoBox uses a professional video encoder </tspan>
+                <tspan x="0" dy="1.2em">to turn camera input into a live stream </tspan>
+                <tspan x="0" dy="1.2em">in real time - no extra hardware, no complex setup. </tspan>
+                <tspan x="0" dy="1.2em">Open-source tools provide flexibility, </tspan>
+                <tspan x="0" dy="1.2em">stability, and top-tier image quality.</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.0966667;0.1;0.326667;0.33;1" dur="25s" values="0;0;1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange0" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.1;0.166667;1" dur="25s" values="M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.326667;0.33;1" dur="25s" values="1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(-160.535 -14)">
+         <g transform="translate(350 60)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(160.535 14)">
+              <g fill="rgba(204, 204, 204, 1)" stroke="none" id="naslovD" font-weight="500" stroke-linejoin="round" font-size="40" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="end">
+               <text letter-spacing="0em" word-spacing="0em">
+                <tspan x="0">VIDEO ENCODER</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.326667;0.33;1" dur="25s" values="1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(781.15 149.735)">
+  <g transform="translate(0 0)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(-781.15 -149.735)" opacity="1">
+       <g id="Za1b">
+        <g transform="translate(390 300)">
+         <g transform="translate(0 -0.529672)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-390 -300)">
+              <path fill="rgba(20, 20, 20, 1)" stroke="none" id="Backbz" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.333333;0.4;1" dur="25s" values="M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.66;0.663333;1" dur="25s" values="1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.4;0.433333;1" dur="25s" values="M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.396667;0.4;0.66;0.663333;1" dur="25s" values="0;0;1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(315.664 114.688)">
+         <g transform="translate(26.5603 140)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-315.664 -114.688)">
+              <g fill="rgba(255, 255, 255, 1)" stroke="none" id="popdnaslovD" stroke-linejoin="round" font-size="24.000002" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="start">
+               <text letter-spacing="-0.02em" word-spacing="0.025em">
+                <tspan x="0">Network bonding is the core of reliable live streaming </tspan>
+                <tspan x="0" dy="1.2em">and NoBox excels at it. </tspan>
+                <tspan x="0" dy="1.2em">Multiple internet links (cellular, Wi-Fi, Ethernet) </tspan>
+                <tspan x="0" dy="1.2em">are merged into one stable channel. </tspan>
+                <tspan x="0" dy="1.2em">If one drops, the others keep going - without interruption.</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.43;0.433333;0.536667;0.66;0.663333;1" dur="25s" values="0;0;1;1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange0" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.433333;0.5;1" dur="25s" values="M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.43;0.433333;0.66;0.663333;1" dur="25s" values="0;0;1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g>
+          <animateTransform fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="transform" calcMode="spline" keyTimes="0;0.63;0.663333;1" dur="25s" values="0 0;0 0;782.3 0;782.3 0" type="translate"/>
+          <g transform="translate(0 87.4)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect y="0" x="0" fill="rgba(204, 204, 204, 1)" stroke="none" id="bijelo" rx="0" stroke-linejoin="round" width="780" stroke-linecap="round" height="15.566" ry="0" stroke-width="10"/>
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.33;0.333333;1" dur="25s" values="0;0;1;1"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(-160.535 -14)">
+         <g transform="translate(412.084 60)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(160.535 14)">
+              <g fill="rgba(204, 204, 204, 1)" stroke="none" id="naslovD" font-weight="500" stroke-linejoin="round" font-size="40" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="end">
+               <text letter-spacing="0em" word-spacing="0em">
+                <tspan x="0">NETWORK BONDING</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.33;0.336667;0.66;0.663333;1" dur="25s" values="0;0;1;1;0;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g transform="translate(781.15 149.735)">
+  <g transform="translate(0 0)">
+   <g transform="rotate(0)">
+    <g transform="scale(1 1)">
+     <g transform="skewX(0) skewY(0)">
+      <g transform="translate(-781.15 -149.735)" opacity="1">
+       <g id="Za1b1">
+        <g transform="translate(390 300)">
+         <g transform="translate(0 -0.529672)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-390 -300)">
+              <path fill="rgba(20, 20, 20, 1)" stroke="none" id="Backbz" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.67;0.736667;1" dur="25s" values="M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 297.639 0 297.639C0 297.639 780 297.639 780 297.639C780 297.639 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z;M0 300C0 300 0 0 0 0C0 0 780 0 780 0C780 0 780 300 780 300C780 300 0 300 0 300Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.996667;1" dur="25s" values="1;1;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.736667;0.77;1" dur="25s" values="M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 -5.32313C0 -5.32313 0 0 0 0C0 0 780 0 780 0C780 0 780 -5.32313 780 -5.32313C780 -5.32313 0 -5.32313 0 -5.32313Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.733333;0.736667;0.996667;1" dur="25s" values="0;0;1;1;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(315.664 114.688)">
+         <g transform="translate(26.5603 140)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-315.664 -114.688)">
+              <g fill="rgba(255, 255, 255, 1)" stroke="none" id="popdnaslovD" stroke-linejoin="round" font-size="24.000002" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="start">
+               <text letter-spacing="-0.02em" word-spacing="0.025em">
+                <tspan x="0">The stream goes straight to a cloud server / scalable, </tspan>
+                <tspan x="0" dy="1.2em">accessible, and under your control. </tspan>
+                <tspan x="0" dy="1.2em">Delivered via modern protocols (like SRT), </tspan>
+                <tspan x="0" dy="1.2em">ready to be received in a browser, player, </tspan>
+                <tspan x="0" dy="1.2em">or broadcast system.</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.766667;0.77;0.873333;0.933333;0.996667;1" dur="25s" values="0;0;1;1;1;1;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g transform="translate(0 100)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(-5 -5)">
+              <path fill="rgba(255, 120, 0, 1)" stroke="none" id="orange0" stroke-linejoin="round" stroke-linecap="round" stroke-width="10" d="M0 0">
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="d" calcMode="spline" keyTimes="0;0.77;0.836667;1" dur="25s" values="M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 0 0 0C0 0 780 0 780 0C780 0 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z;M0 200C0 200 0 183.16 0 183.16C0 183.16 780 183.16 780 183.16C780 183.16 780 200 780 200C780 200 0 200 0 200Z"/>
+              </path>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.766667;0.77;0.996667;1" dur="25s" values="0;0;1;1;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(5 5)">
+         <g>
+          <animateTransform fill="freeze" keySplines="0 0 1 1;0 0 1 1" attributeName="transform" calcMode="spline" keyTimes="0;0.966667;1" dur="25s" values="0 0;0 0;782.3 0" type="translate"/>
+          <g transform="translate(0 87.4)">
+           <g transform="rotate(0)">
+            <g transform="scale(1 1)">
+             <g transform="skewX(0) skewY(0)">
+              <g transform="translate(-5 -5)">
+               <rect y="0" x="0" fill="rgba(204, 204, 204, 1)" stroke="none" id="bijelo" rx="0" stroke-linejoin="round" width="780" stroke-linecap="round" height="15.566" ry="0" stroke-width="10"/>
+               <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.666667;0.67;1" dur="25s" values="0;0;1;1"/>
+              </g>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+        <g transform="translate(-160.535 -14)">
+         <g transform="translate(395.398 60)">
+          <g transform="rotate(0)">
+           <g transform="scale(1 1)">
+            <g transform="skewX(0) skewY(0)">
+             <g transform="translate(160.535 14)">
+              <g fill="rgba(204, 204, 204, 1)" stroke="none" id="naslovD" font-weight="500" stroke-linejoin="round" font-size="40" font-family="Rubik Light, Rubik" stroke-linecap="round" stroke-width="10" text-anchor="end">
+               <text letter-spacing="0em" word-spacing="0em">
+                <tspan x="0">CLOUD BACKHEND</tspan>
+               </text>
+              </g>
+              <animate fill="freeze" keySplines="0 0 1 1;0 0 1 1;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0.333333 1 0.666667;0 0 1 1" attributeName="opacity" calcMode="spline" keyTimes="0;0.666667;0.67;0.873333;0.933333;0.996667;1" dur="25s" values="0;0;1;1;1;1;0"/>
+             </g>
+            </g>
+           </g>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs/>
+</svg>
