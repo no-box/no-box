@@ -9,16 +9,6 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/main.js"></script>
     <script src="assets/js/image-display.js"></script>
-    <script>
-      document.querySelectorAll('.image-link').forEach(link => {
-          link.addEventListener('click', function(e) {
-              e.preventDefault();
-              const imgPath = this.getAttribute('data-image');
-              document.getElementById('image-display').style.backgroundImage = `url('${imgPath}')`;
-              console.log('Pokušavam učitati:', imgPath);
-          });
-      });
-      </script>
   </head>
 </head>
 
@@ -39,11 +29,21 @@
 
         <section class="stranica">
           <!-- SVG bgd -->
-          <div class="svg-back"><object type="image/svg+xml" data="assets/svg/nb-bgd-b5.svg"></object></div> 
-          <div class="links">
-              <a href="#" class="image-link" data-image="assets/img/proba1.png">Prikaži sliku 1</a>
-              <a href="#" class="image-link" data-image="assets/svg/nb-banner-encoder.svg">Prikaži sliku 2</a>
-          </div>
+          <div class="svg-back"><object type="image/svg+xml" data="assets/svg/nb-bgd-b1.svg"></object></div> 
+          <div class="linkovi-b">
+            <div class="linkovi-linija-b">
+              <a href="#stranica-2">🔤 Open-source</a>&nbsp; &nbsp; &nbsp;
+              <a href="#stranica-3">🔤 SRT Streaming</a>&nbsp; &nbsp; &nbsp;
+              <a href="#stranica-4">🔤 h265</a>
+              <div class="links">
+                <a href="#" class="image-link" data-image="assets/svg/nb-banner-encoder.svg">Prikaži sliku 1</a>
+                <a href="#" class="image-link" data-image="assets/svg/nb-banner-cloud.svg">Prikaži sliku 2</a>
+            </div>
+            </div>
+        </div>
+
+
+          
           <div id="image-display"></div>
       </section>
       

@@ -4,13 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Inicijalno postavljamo stylove za display
     imageDisplay.style.cssText = `
-        width: 300px;
-        height: 200px;
-        margin: 20px auto;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        border: 1px dashed #ccc;
         z-index: 10;
         position: relative;
     `;

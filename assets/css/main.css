@@ -186,10 +186,10 @@ section {
   display: flex;
   justify-content: right;
   /*! align-items: inherit; */
-  position: absolute;
-  left: 46.5vw;
-  transform: translateY(884%);
-  z-index: 1;
+  position: relative;
+  left: -13.5vw;
+  transform: translateY(2511%);
+  z-index: 12;
   /*! padding-right: 2vw; */
   color: #cccccc;
   text-align: right;
@@ -388,29 +388,41 @@ section {
 }
 
 #image-display {
-  width: 300px;  /* Prilagodi po potrebi */
-  height: 200px; /* Prilagodi po potrebi */
-  margin: 20px auto;
+  width: 32vw;  /* Prilagodi po potrebi */
+  height: 22vh; /* Prilagodi po potrebi */
+  /*! margin: 20px auto; */
   border: 1px solid #ccc;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  z-index: 10;
+  /*! z-index: 10; */
   background-color: #6d934f29;
+  left: 6vh;
+  top: 24vw;
 }
 
 .links {
-  width: 90%;
-  max-width: 51vw;
-  height: 1.4vw;
+  /*! width: 90%; */
+  /*! max-width: 51vw; */
+  /*! height: 1.4vw; */
   /*! background-color: #0ab7e83d; */ /* Žućkasta */
   /*! margin: 6vw 0; */
-  display: flex;
-  justify-content: left;
-  align-items: last baseline;
+  /*! display: flex; */
+  /*! justify-content: left; */
+  /*! align-items: last baseline; */
   position: absolute;
-  left: 3.3vw;
-  transform: translateY(924%);
-  z-index: 1;
-  color: #141414;
+  left: 7.3vw;
+  /*! transform: translateY(924%); */
+  /*! z-index: 1; */
+  /*! color: #141414; */
+}
+
+#image-display {
+  /*! width: 300px; */
+  /*! height: 200px; */
+  /*! margin: 20px auto; */
+  /*! background-size: contain; */
+  /*! background-repeat: no-repeat; */
+  /*! background-position: center; */
+  border: 1px dashed #ccc;
 }
