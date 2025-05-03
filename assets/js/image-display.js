@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
         background-repeat: no-repeat;
         background-position: center;
         border: 1px dashed #ccc;
+        z-index: 10;
+        position: relative;
     `;
     
     links.forEach(link => {

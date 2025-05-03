@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/main.js"></script>
-    <script src="js/image-display.js"></script>
+    <script src="assets/js/image-display.js"></script>
     <script>
       document.querySelectorAll('.image-link').forEach(link => {
           link.addEventListener('click', function(e) {
@@ -38,9 +38,11 @@
         <!-- Sekcija 2 -->
 
         <section class="stranica">
+          <!-- SVG bgd -->
+          <div class="svg-back"><object type="image/svg+xml" data="assets/svg/nb-bgd-b5.svg"></object></div> 
           <div class="links">
-              <a href="#" class="image-link" data-image="proba1.png">Prikaži sliku 1</a>
-              <a href="#" class="image-link" data-image="assets/img/proba2.png">Prikaži sliku 2</a>
+              <a href="#" class="image-link" data-image="assets/img/proba1.png">Prikaži sliku 1</a>
+              <a href="#" class="image-link" data-image="assets/svg/nb-banner-encoder.svg">Prikaži sliku 2</a>
           </div>
           <div id="image-display"></div>
       </section>
