@@ -272,8 +272,8 @@ section {
 }
 
 .svg-back {
-  width: 100vw;
-  /*! max-width: 99vw; */
+  width: 96vw;
+  max-width: 99vw;
   height: 100vh;
   /*! background-color: #87deb4; */ /* Žućkasta */
   /*! margin: 6vw 0; */
@@ -457,7 +457,7 @@ section {
 /* Aktivni tekst */
 .tekst:target {
   opacity: 1;
-  transform: translateY(-3vw);
+  transform: translateY(-1vw);
   position: relative;
   pointer-events: auto;
   background-color: #ff7800;
@@ -497,9 +497,9 @@ section {
 }
 
 .box-left {
-  left: 3.7vw;
-  /*! transform: translateX(-40vh); */
-  top: 27vw;
+  left: 5.7vw;
+  transform: translateY(0vh);
+  /*! top: 27vw; */
 }
 
 .box-right {
