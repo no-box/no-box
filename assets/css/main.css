@@ -368,37 +368,6 @@ section {
   opacity: 0.8;
 }
 
-.svg-container {
-  position: relative;
-  top: 3vh;
-  left: -27vw;
-  /*! width: 100%; */
-  /*! height: 100%; */
-  z-index: 1;
-  background-color: wheat;
-  scale: 81%;
-}
-.link {
-  cursor: pointer;
-  margin: 10px;
-  display: inline-block;
-}
-
-#animation-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: -1;
-}
-
-.active-animation {
-  width: 100%;
-  height: 100%;
-}
-
 /* SVG animacija (narančasti okvir) */
 .mozda {
   width: 90%;
@@ -416,4 +385,32 @@ section {
   color: #141414;
   padding-left: 1vw;
   scale: 90%;
+}
+
+#image-display {
+  width: 300px;  /* Prilagodi po potrebi */
+  height: 200px; /* Prilagodi po potrebi */
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 10;
+  background-color: #6d934f29;
+}
+
+.links {
+  width: 90%;
+  max-width: 51vw;
+  height: 1.4vw;
+  /*! background-color: #0ab7e83d; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  display: flex;
+  justify-content: left;
+  align-items: last baseline;
+  position: absolute;
+  left: 3.3vw;
+  transform: translateY(924%);
+  z-index: 1;
+  color: #141414;
 }
