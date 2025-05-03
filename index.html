@@ -8,8 +8,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="assets/js/main.js"></script>
+    <script src="js/image-display.js"></script>
+    <script>
+      document.querySelectorAll('.image-link').forEach(link => {
+          link.addEventListener('click', function(e) {
+              e.preventDefault();
+              const imgPath = this.getAttribute('data-image');
+              document.getElementById('image-display').style.backgroundImage = `url('${imgPath}')`;
+              console.log('Pokušavam učitati:', imgPath);
+          });
+      });
+      </script>
   </head>
 </head>
+
   <body>
     <main>
       <!-- Glavni kontejner -->
@@ -24,26 +36,15 @@
         <div class="white-space"></div>
 
         <!-- Sekcija 2 -->
-        <section class="sekcija-bijela" id="stranica-2">
 
-          <!-- Linkovi koji pokreću animacije -->
-
-            <div class="links">
-               <a href="#" class="image-link" data-image="aassets/img/proba1.png">Prikaži sliku 1</a>
-                <a href="#" class="image-link" data-image="aassets/img/proba2.png">Prikaži sliku 2</a>
-            </div>
-
-         <!-- SVG  -->
-         <div id="image-display">
-          <!-- Ovdje će se prikazivati slike -->
-      </div>
-
-          <!-- SVG background -->
-          <div class="svg-back">
-            <object type="image/svg+xml" data="assets/svg/nb-bgd-b1.svg"></object>
+        <section class="stranica">
+          <div class="links">
+              <a href="#" class="image-link" data-image="proba1.png">Prikaži sliku 1</a>
+              <a href="#" class="image-link" data-image="assets/img/proba2.png">Prikaži sliku 2</a>
           </div>
-        </section>
-
+          <div id="image-display"></div>
+      </section>
+      
         <div class="white-space"></div>
 
         <!-- Sekcija 3 -->
