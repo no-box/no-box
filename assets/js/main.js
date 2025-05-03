@@ -6,3 +6,4 @@ document.querySelectorAll('.image-link').forEach(link => {
       document.getElementById('image-display').style.backgroundImage = `url('${imagePath}')`;
   });
 });
+

@@ -187,8 +187,8 @@ section {
   justify-content: right;
   /*! align-items: inherit; */
   position: relative;
-  left: -13.5vw;
-  transform: translateY(2511%);
+  left: 21.5vw;
+  transform: translateY(1152%);
   z-index: 12;
   /*! padding-right: 2vw; */
   color: #cccccc;
@@ -205,8 +205,8 @@ section {
   justify-content: left;
   align-items: last baseline;
   position: absolute;
-  left: 3.3vw;
-  transform: translateY(924%);
+  left: 4vw;
+  transform: translateY(12vw);
   z-index: 1;
   color: #141414;
 }
@@ -292,6 +292,7 @@ section {
   /*! margin-top: 10px; */
   /*! left: 1vw; */
   padding-left: 1vw;
+  z-index: 10;
 }
 
 .linkovi-linija a {
@@ -368,24 +369,51 @@ section {
   opacity: 0.8;
 }
 
-/* SVG animacija (narančasti okvir) */
-.mozda {
-  width: 90%;
-  max-width: 50vw;
-  height: 18vw;
-  /*! background-color: #10935445; */ /* Žućkasta */
-  /*! margin: 6vw 0; */
-  display: inline-flex;
-  /*! justify-content: center; */
-  /*! align-items: center; */
+//* Mala slova */
+.tekstovi .tekst {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease 0.5s, transform 0.5s ease 0.5s;
   position: absolute;
-  left: 0.5vw;
-  transform: translateY(13%);
-  z-index: 1;
-  color: #141414;
-  padding-left: 1vw;
-  scale: 90%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
 }
+
+/* Overlay sloj */
+.tekst .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 98%;
+  background: #cccccc; /* ili boja pozadine */
+  transform: translateY(1%);
+  transition: transform 1.2s ease;
+  z-index: 0;
+}
+
+/* Aktivni tekst */
+.tekst:target {
+  opacity: 1;
+  /*! transform: translateY(1vw); */
+  position: relative;
+  pointer-events: auto;
+  z-index: 10;
+  left: -67vh;
+  top: -2vw;
+}
+
+/* Pokreće zavjesu */
+.tekst:target .overlay {
+  transform: translateY(100%);
+  transition-delay: 0s;
+}
+
+
+
 
 #image-display {
   width: 32vw;  /* Prilagodi po potrebi */
@@ -425,4 +453,7 @@ section {
   /*! background-repeat: no-repeat; */
   /*! background-position: center; */
   border: 1px dashed #ccc;
+  top: 0vw;
+  left: 49vh;
 }
+
