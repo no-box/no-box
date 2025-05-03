@@ -197,7 +197,7 @@ section {
 
 .linkovi-c {
   width: 90%;
-  max-width: 43vw;
+  max-width: 46vw;
   height: 1.4vw;
   /*! background-color: #0ab7e83d; */ /* Žućkasta */
   /*! margin: 6vw 0; */
@@ -205,8 +205,8 @@ section {
   justify-content: left;
   align-items: last baseline;
   position: absolute;
-  left: 6vw;
-  transform: translateY(12vw);
+  left: 3vw;
+  transform: translateY(-5.5vw);
   z-index: 1;
   color: #141414;
 }
@@ -424,9 +424,9 @@ section {
   pointer-events: none;
   display: grid;
   /*! align-items: center; */ /* vertikalno centriranje */
-  /*! justify-content: center; */ /* horizontalno centriranje */
+  justify-content: center; /* horizontalno centriranje */
   text-align: left;
-  padding: 1rem;
+  padding: 1vw 2vh 1vw;
   box-sizing: border-box;
 }
 
@@ -451,9 +451,11 @@ section {
   pointer-events: auto;
   z-index: 10;
   left: -69.3vh;
-  top: -2vw;
+  top: 6vw;
   background-color: #ff7800;
   color: #fff;
+  /*! height: 11vw; */
+  font-weight: 500;
 }
 
 /* Pokreće zavjesu */
