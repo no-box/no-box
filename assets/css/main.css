@@ -369,7 +369,7 @@ section {
   opacity: 0.8;
 }
 
-//* Mala slova */
+/* Mala slova */
 .tekstovi .tekst {
   opacity: 0;
   transform: translateY(20px);
@@ -411,9 +411,6 @@ section {
   transform: translateY(100%);
   transition-delay: 0s;
 }
-
-
-
 
 #image-display {
   width: 32vw;  /* Prilagodi po potrebi */
