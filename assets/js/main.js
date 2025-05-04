@@ -1,4 +1,4 @@
-/* Mala slova */
+/* Mala slova 
   // Lijevi set
   document.querySelectorAll('.link-left').forEach(link => {
     link.addEventListener('click', function (e) {
@@ -20,4 +20,4 @@
       document.getElementById(target).classList.add('active');
     });
   });
-
+*/
