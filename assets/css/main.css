@@ -26,7 +26,6 @@ html, body {
   height: 100%;
   /*! z-index: -1; */
   background-color: #800000; /* Tamno crvena */
-  aspect-ratio: 9/6 auto;
 }
 
 /* Sekcije stranice */
@@ -200,7 +199,7 @@ section {
 }
 
 .linkovi-c {
-  width: 47%;
+  /*! width: 47%; */
   max-width: 49vw;
   /*! height: 1.4vw; */
   /*! background-color: #0ab7e83d; */ /* Žućkasta */
@@ -209,12 +208,12 @@ section {
   /*! justify-content: left; */
   /*! align-items: last baseline; */
   position: absolute;
-  left: 6.5vw;
+  right: 6.5vw;
   /*! transform: translateY(9.5vw); */
-  z-index: 1;
+  z-index: 19;
   color: #141414;
   /*! transform: translateX(4vh); */
-  top: 39vw;
+  top: 32vw;
 }
 
 /* Sadržaj linkova (žuti okvir) */
@@ -289,6 +288,25 @@ section {
   /*! transform: translateY(-10%); */
   z-index: 0;
   /*! scale: 116%; */
+}
+
+.svg-izlog-desno {
+  width: 90%;
+  /*! max-width: 50vw; */
+  /*! height: 18vw; */
+  /*! background-color: #10935445; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  /*! display: inline-flex; */
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  position: absolute;
+  right: -22vw;
+  /*! transform: translateY(13%); */
+  z-index: 1;
+  /*! color: #141414; */
+  /*! padding-left: 1vw; */
+  scale: 40%;
+  top: -22vw;
 }
 
 /* Linkovi u liniji */
@@ -381,7 +399,7 @@ section {
 
 /* Tekstovi */
 .tekstovi {
-  position: relative;
+  /*! position: relative; */
   min-height: 150px;
   color: #141414;
   font-size: math;
@@ -473,8 +491,8 @@ section {
 }
 
 .box-left {
-  left: 5.5vw;
-  top: 24vw;
+  right: 6.5vw;
+  top: 21vw;
   width: 45.7%;
   position: absolute;
   z-index: 10;
@@ -486,4 +504,97 @@ section {
   left: 48.7vw;
   z-index: 10;
   top: 24vw;
+}
+
+.mega-up-left {
+  left: 4vw;
+  top: -14vw;
+  width: 45.7%;
+  position: absolute;
+  z-index: 11;
+  color: wheat;
+  font-size: 15vw;
+  font-weight: 600;
+  letter-spacing: -0.5vw;
+}
+
+.mega-down-left {
+  left: 4vw;
+  top: 25vw;
+  width: 45.7%;
+  position: absolute;
+  z-index: 11;
+  color: wheat;
+  font-size: 15vw;
+  font-weight: 100;
+  letter-spacing: -0.5vw;
+}
+
+.podnaslov-left {
+  left: 4.5vw;
+  top: 16vw;
+  width: 45.7%;
+  position: absolute;
+  z-index: 11;
+  color: rgb(60, 24, 113);
+  font-size: 2vw;
+  /*! letter-spacing: 0.5vw; */
+  background-color: #14ff00;
+  width: 50vw;
+  height: 10vh;
+  position: absolute;
+  left: 5vw;
+  font-size: 2vh;
+  padding: 0vw 2vw;
+  line-height: 0.8vw;
+}
+
+.pitanje-desno {
+  left: 4vw;
+  top: -14vw;
+  width: 45.7%;
+  position: absolute;
+  z-index: 11;
+  color: wheat;
+  font-size: 15vw;
+  font-weight: 600;
+  letter-spacing: -0.5vw;
+}
+
+.vodeo-overlay {
+  /*! width: 90%; */
+  /*! max-width: 50vw; */
+  /*! height: 18vw; */
+  /*! background-color: #10935445; */ /* Žućkasta */
+  /*! margin: 6vw 0; */
+  /*! display: inline-flex; */
+  /*! justify-content: center; */
+  /*! align-items: center; */
+  position: absolute;
+  /*! right: -22vw; */
+  /*! transform: translateY(13%); */
+  z-index: 1;
+  /*! color: #141414; */
+  /*! padding-left: 1vw; */
+  scale: 78%;
+  /*! top: -22vw; */
+}
+
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: sans-serif;
 }
