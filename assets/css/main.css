@@ -575,13 +575,13 @@ section {
   /*! transform: translateY(13%); */
   z-index: 1;
   /*! color: #141414; */
-  /*! padding-left: 1vw; */
+  /*! padding-left: 1vw; */ 
   scale: 78%;
   /*! top: -22vw; */
 }
 
 .video-bg {
-  position: fixed;
+  /*! position: fixed; */
   top: 0;
   left: 0;
   min-width: 100%;
