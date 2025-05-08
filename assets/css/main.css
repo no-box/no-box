@@ -589,12 +589,4 @@ section {
   object-fit: cover;
   z-index: -1;
 }
-.content {
-  position: relative;
-  z-index: 1;
-  color: white;
-  text-align: center;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: sans-serif;
-}
+
