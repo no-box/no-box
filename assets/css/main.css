@@ -177,14 +177,15 @@ text-shadow: 3px 3px 0px black;
 
 .ticker-dole {
 position: absolute;
-width: 100%;
+width: 67%;
 background: #000000cf;
 color: white;
 /*! padding: 1%; */
 z-index: 1;
-text-align: center;
+text-align: left;
 height: 5%;
 bottom: 0;
+padding-left: 33%;
 }
 
 .ticker-gore {
@@ -296,14 +297,7 @@ top: 6%;
 left: 3%;
 background: #14141491;
 color: white;
-/*! padding: 0.5rem; */
 z-index: 1;
-/*! scale: 120%; */
-/*! opacity: 40%; */
-}
-
-.top-left div {
-/*! margin-bottom: 0.2rem; */
 }
 
 .top-right {
@@ -400,8 +394,42 @@ margin-top: 0.223rem;
 color: white;
 text-align: center;
 display: flow-root;
-scale: 105%;
+scale: 103%;
 }
+
+.zatablicu {
+  position: absolute;
+  top: 22%;
+  right: 30.65%;
+  /*! background: rgba(0, 0, 0, 0.6); */
+  /*! color: white; */
+  /*! padding: 1rem 1rem 1rem 1rem; */
+  z-index: 1;
+  /*! font-size: 1.2rem; */
+  /*! font-weight: 600; */
+  /*! text-shadow: 2px 2px 0px black; */
+  /*! border-style: solid; */
+  /*! border-width: 0.08rem; */
+  width: 38%;
+  text-align: left;
+  }
+
+  .zatablicu a {
+    position: absolute;
+    /*! top: -40%; */
+    right: 19%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1rem 1rem 1rem 1rem;
+    z-index: 1;
+    /*! font-size: 1.44rem; */
+    font-weight: 600;
+    text-shadow: 2px 2px 0px black;
+    border-style: solid;
+    border-width: 0.08rem;
+    text-decoration: none;
+    transform: translateY(-300%);
+    }
 
 .mala-slova-box {
 position: absolute;
@@ -409,11 +437,22 @@ top: 45%;
 left: 0;
 /*! background: rgba(255, 0, 0, 0.7); */
 color: white;
-/*! padding: 1.5rem; */
 z-index: 1;
 width: 45%;
-/*! margin-top: 31%; */
 }
+
+.tablica-box {
+  position: absolute;
+  top: 14%;
+  left: 18%;
+  /*! background: rgba(255, 0, 0, 0.7); */
+  /*! color: white; */
+  z-index: 1;
+  width: 56%;
+  /*! padding-right: 3rem; */
+  /*! border-style: solid; */
+  /*! border-width: 1rem; */
+  }
 
 /* Links */
 .links {
@@ -428,7 +467,6 @@ text-decoration: none;
 border-style: solid;
 border-width: 0.1rem;
 background-color: #960000;
-/*! margin-right: 0.5rem; */
 box-shadow: 3px 3px 3px #00000070;
 transition: ease-in;
 }
@@ -441,7 +479,6 @@ text-decoration: none;
 border-style: solid;
 border-width: 0.1rem;
 background-color: #ff0000;
-/*! margin-right: 0.5rem; */
 box-shadow: 3px 3px #000;
 transition: transform opacity 0.5s 0.2s ease
 }
@@ -456,3 +493,49 @@ transform: translateY(4px);
 .mali-logo {
 z-index: 15;
 }
+
+/* Tablica */
+.tablica {
+  color: white;
+  font-size: math;
+  font-weight: 500;
+  }
+
+.tablica th, td{
+  /*! border:0.3px solid #cccccc57; */
+  }
+
+  
+  .tablica .tekst {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease 0.2s, transform 0.2s ease 0.2s;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  padding: 1.1vh 3.5vw;
+  }
+  
+  /* Overlay sloj */
+  .tablica .overlay {
+  position: absolute;
+  transform: translateY(0%);
+  transition: transform 0.2s ease 0.2s;
+  z-index: 10;
+  /*! background: #e10874; */
+  }
+  
+  /* Aktivni tekst */
+  .tablica:target {
+  opacity: 1;
+  transform: translateY(-0.3vw);
+  pointer-events: auto;
+  background-color: #000000b5;
+  }
+  
+  /* Pokreće zavjesu */
+  .tablica:target .overlay {
+  transform: translateY(-100%);
+  transition-delay: 0.5s;
+  }
