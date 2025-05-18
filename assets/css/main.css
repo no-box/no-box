@@ -114,7 +114,7 @@ width: 100%;
 height: 100%;
 transform: translate(0%, 0%);
 object-fit: cover;
-z-index: 0;
+z-index: -1;
 /*! scale: 91%; */
 }
 
@@ -125,6 +125,7 @@ z-index: 0;
 color: white;
 font-size: math;
 font-weight: 500;
+text-shadow: 1.2px 1.2px 0.2px black;
 }
 
 .tekstovi .tekst {
@@ -142,7 +143,7 @@ padding: 1.1vh 3.5vw;
 .tekst .overlay {
 position: absolute;
 transform: translateY(0%);
-transition: transform 0.2s ease 0.2s;
+
 z-index: 10;
 /*! background: #e10874; */
 }
@@ -152,13 +153,13 @@ z-index: 10;
 opacity: 1;
 transform: translateY(-0.3vw);
 pointer-events: auto;
-background-color: #000000b5;
+background-color: #000000a3;
 }
 
 /* Pokreće zavjesu */
 .tekst:target .overlay {
 transform: translateY(-100%);
-transition-delay: 0.5s;
+transition-delay: 0.1s;
 }
 
 /* Ticker & corners */
@@ -167,8 +168,8 @@ transition-delay: 0.5s;
 position: absolute;
 bottom: 5%;
 width: 100%;
-/*! background: #00000080; */
-color: red;
+background: #000000b8;
+color: white;
 /*! padding: 0% 2%; */
 z-index: 1;
 text-align: center;
@@ -184,7 +185,7 @@ text-shadow: 3px 3px 0px black;
 
 .ticker-dole {
 position: absolute;
-width: 67%;
+width: 64%;
 background: #000000cf;
 color: white;
 /*! padding: 1%; */
@@ -192,7 +193,7 @@ z-index: 1;
 text-align: left;
 height: 5%;
 bottom: 0;
-padding-left: 33%;
+padding-left: 36%;
 }
 
 .ticker-gore {
@@ -268,16 +269,16 @@ left: 3%;
 
 .ticker-linkovi-prva {
 position: absolute;
-bottom: 30.7%;
-width: 100%;
+bottom: 26.5%;
+/*! width: 60%; */
 /*! background: #000; */
 color: white;
 z-index: 4;
-text-align: center;
+/*! text-align: left; */
 /*! height: 2.8%; */
 /*! font-size: 1.0rem; */
 font-weight: 600;
-/*! left: 26%; */
+left: 26%;
 }
 
 .ticker-pitanje {
@@ -314,8 +315,8 @@ left: 0;
 /* Corners */
 .top-left {
 position: absolute;
-top: 5%;
-left: 1.5%;
+top: 1%;
+left: 3%;
 background: #1414145c;
 color: white;
 z-index: 1;
@@ -355,18 +356,18 @@ text-align: center;
 
 .connect {
 position: absolute;
-top: 17.5%;
-right: 3%;
-background: rgba(0, 0, 0, 0.41);
+top: 16%;
+right: 0.8%;
+/*! background: rgba(0, 0, 0, 0.25); */
 color: white;
-padding: 1rem 2rem 1.2rem 1.5rem;
+/*! padding: 1rem 3rem 1.2rem 1.5rem; */
 z-index: 1;
-/*! font-size: 2.1rem; */
+font-size: 1.3rem;
 font-weight: 600;
-text-shadow: 1px 1px 1px black;
+text-shadow: 1.2px 1.2px 0.2px black;
 /*! border-style: solid; */
 /*! border-width: 0.08rem; */
-text-align: right;
+text-align: center;
 /*! width: 13rem; */
 }
 
@@ -379,12 +380,13 @@ display: block ruby;
 /*! box-shadow: 2px 2px 2px #ff7899; */
 /*! box-shadow: 2px 2px 2px #ff7800; */
 margin-bottom: 0.5rem;
+margin-top: 0.3rem;
 }
 
 .social-icon {
-margin-left: 1rem;
-margin-top: 0.7rem;
-margin: 1rem 0.5rem 1rem;
+margin-left: 0.3rem;
+margin-top: 0.3rem;
+margin-bottom: 0.3rem;
 }
 
 .social-icon a :hover{
@@ -400,7 +402,7 @@ margin-right: 0.5rem;
 }
 
 .social-mail a {
-background: #000;
+background: #0000008a;
 font-weight: 500;
 color: white;
 text-decoration: none;
@@ -415,9 +417,9 @@ color: white;
 
 .zatablicu {
 position: absolute;
-top: 22%;
-right: 30.65%;
-/*! background: rgba(0, 0, 0, 0.6); */
+top: 21%;
+right: 29%;
+background: rgba(68, 255, 0, 0.6);
 /*! color: white; */
 /*! padding: 1rem 1rem 1rem 1rem; */
 z-index: 1;
@@ -426,7 +428,7 @@ z-index: 1;
 /*! text-shadow: 2px 2px 0px black; */
 /*! border-style: solid; */
 /*! border-width: 0.08rem; */
-width: 38%;
+width: 40%;
 text-align: left;
 }
 
@@ -449,7 +451,7 @@ transform: translateY(-300%);
 
 .mala-slova-box {
 position: absolute;
-top: 45%;
+top: 49%;
 left: 0;
 /*! background: rgba(255, 0, 0, 0.7); */
 color: white;
@@ -458,13 +460,13 @@ width: 45%;
 }
 
 .tablica-box {
-position: absolute;
-top: 14%;
-left: 18%;
-/*! background: rgba(255, 0, 0, 0.7); */
+/*! position: absolute; */
+/*! top: 33%; */
+/*! left: 83%; */
+background: rgb(0, 171, 255);
 /*! color: white; */
 z-index: 1;
-width: 56%;
+/*! width: 100%; */
 /*! padding-right: 3rem; */
 /*! border-style: solid; */
 /*! border-width: 1rem; */
@@ -548,13 +550,13 @@ z-index: 15;
 .mali-logo-gore {
 z-index: 15;
 /*! position: absolute; */
-scale: 10%;
-transform: translateY(-412%);
+scale: 9%;
+transform: translateY(-492%) translateX(394%);
 }
 
 /* Tablica */
 .tablica {
-color: white;
+/*! color: white; */
 font-size: math;
 font-weight: 500;
 }
@@ -578,104 +580,144 @@ padding: 1.1vh 3.5vw;
 .tablica .overlay {
 position: absolute;
 transform: translateY(0%);
-transition: transform 0.2s ease 0.2s;
+transition: transform 0.1s ease 0.1s;
 z-index: 10;
-/*! background: #e10874; */
+background: #ff007f;
 }
 
 /* Aktivni tekst */
 .tablica:target {
 opacity: 1;
-transform: translateY(-0.3vw);
+/*! transform: translateY(-0.3vw); */
 pointer-events: auto;
-background-color: #000000b5;
+/*! background-color: #000000b5; */
 }
 
 /* Pokreće zavjesu */
 .tablica:target .overlay {
 transform: translateY(-100%);
-transition-delay: 0.5s;
+transition-delay: 0.1s;
 }
 
 .prvo-gore {
-position: absolute;
-top: 25%;
-color: #1414141;
+/*! position: relative; */
+/*! top: 24%; */
+color: white;
 z-index: 1;
 text-align: center;
 font-size: 2.8rem;
-/*! left: 41%; */
+left: 41%;
 font-weight: 600;
-width: 100%;
+}
+
+.prvo-gore-zasto {
+/*! position: relative; */
+/*! top: 24%; */
+/*! color: #292929; */
+z-index: 1;
+text-align: center;
+font-size: 2.8rem;
+left: 41%;
+font-weight: 600;
 }
 
 .prvo-dolje {
-position: absolute;
-top: 32%;
-color: #1414141;
+/*! position: relative; */
+top: 30%;
+color: white;
 z-index: 1;
 text-align: center;
-font-size: 1.2rem;
-/*! left: 27%; */
+font-size: 1.8rem;
+left: 27%;
 font-weight: 500;
-width: 100%;
-line-height: 1.9rem;
 }
 
-.drugo-gore {
-position: absolute;
-top: 51%;
-color: #141414;
-z-index: 1;
-text-align: center;
-font-size: 2rem;
-/*! left: 43%; */
-line-height: 1.7rem;
-width: 100%;
-font-weight: 600;
-}
-
-.drugo-dolje {
-position: absolute;
-top: 55%;
-color: #141414;
+.prvo-dolje-zasto {
+/*! position: relative; */
+top: 30%;
+/*! color: #141414; */
 z-index: 1;
 text-align: center;
 font-size: 1.1rem;
-/*! left: 26%; */
+left: 27%;
+font-weight: 500;
+margin: 0.9rem 0rem;
+}
+
+.drugo-gore {
+/*! position: relative; */
+top: 53%;
+color: white;
+z-index: 1;
+text-align: center;
+font-size: 2.0rem;
+left: 43%;
 line-height: 1.7rem;
-width: 100%;
+}
+
+.drugo-gore-zasto {
+/*! position: relative; */
+top: 53%;
+/*! color: #141414; */
+z-index: 1;
+text-align: center;
+font-size: 1.2rem;
+left: 43%;
+line-height: 1.4rem;
+font-weight: 500;
+}
+
+.drugo-dolje {
+/*! position: relative; */
+top: 57%;
+color: white;
+z-index: 1;
+text-align: center;
+font-size: 1.4rem;
+left: 26%;
+line-height: 1.7rem;
+}
+
+.drugo-dolje-zasto {
+/*! position: relative; */
+top: 57%;
+/*! color: #141414; */
+z-index: 1;
+text-align: center;
+font-size: 1.1rem;
+left: 26%;
+line-height: 1.7rem;
 }
 
 .top-left-slika {
 position: absolute;
-top: 27%;
-left: 1.9%;
+top: 25%;
+left: 0%;
 /*! background: #f00; */
 color: black;
 z-index: 1;
-scale: 57%;
+scale: 50%;
 font-size: 2.2rem;
-text-align: left;
+text-align: center;
 /*! line-height: 4rem; */
-transform: translateX(-35%);
+/*! transform: translateX(-35%); */
 }
 
 .top-right-slika {
 position: absolute;
-top: 27%;
-right: -3.1%;
+top: 26%;
+right: -1%;
 color: black;
 z-index: 1;
-scale: 57%;
+scale: 50%;
 font-size: 2.2rem;
-text-align: right;
+text-align: center;
 /*! line-height: 4rem; */
 }
 
 .top-left-nazad {
 position: absolute;
-top: 5%;
+top: 6%;
 left: 2.6%;
 color: black;
 z-index: 1;
@@ -683,9 +725,35 @@ z-index: 1;
 
 .ticker-ld {
 position: absolute;
-top: 35%;
+bottom: 42%;
 z-index: 10;
 left: 21%;
-/*! scale: 170%; */
-/*! width: 100%; */
+}
+
+.zasto {
+position: absolute;
+bottom: 32%;
+/*! color: rgb(51, 51, 51); */
+z-index: 26;
+text-align: center;
+font-size: 1.2rem;
+left: 33%;
+/*! font-weight: 600; */
+/*! background-color: #919191; */
+color: white;
+}
+
+.zasto-prvi {
+position: relative;
+top: 5%;
+color: white;
+z-index: 1;
+text-align: center;
+/*! font-size: 1.1rem; */
+left: -3%;
+/*! font-weight: 600; */
+/*! background-color: #ff00a7; */
+margin-bottom: 1.8%;
+margin-top: 0%;
+/*! line-height: 1.6rem; */
 }
