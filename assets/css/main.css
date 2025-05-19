@@ -415,6 +415,17 @@ font-weight: 500;
 color: white;
 }
 
+.yutu {
+position: absolute;
+top: 28%;
+right: 1%;
+background: rgb(255, 0, 6);
+color: white;
+padding: 0.3rem 0.2rem 0.01rem;
+z-index: 1;
+scale: 97%;
+}
+
 .zatablicu {
 position: absolute;
 top: 21%;
