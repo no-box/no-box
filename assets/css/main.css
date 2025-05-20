@@ -84,25 +84,15 @@ z-index: 10;
 /*! background-color: #141414; */
 }
 
-.content {
-position: relative;
-z-index: 1;
-color: white;
-text-align: center;
-top: 50%;
-transform: translateY(-50%);
-font-family: sans-serif;
-}
-
 .video {
 z-index: 1;
 position: relative;
 /*! width: 117%; */
-height: 90%;
+height: 92%;
 overflow: hidden;
 /*! scale: 96%; */
 zoom: 91%;
-top: -5%;
+top: -4%;
 max-width: 100%;
 }
 
@@ -112,23 +102,24 @@ color: white;
 font-size: math;
 font-weight: 500;
 text-shadow: 1.2px 1.2px 0.2px black;
+text-align: center;
 }
 
 .tekstovi .tekst {
 opacity: 0;
-transform: translateX(-100%);
+transform: translateY(-100%);
 transition: opacity 0.5s ease 0.2s, transform 0.2s ease 0.2s;
 position: absolute;
-width: 100%;
+/*! width: 100%; */
 overflow: hidden;
 pointer-events: none;
-padding: 1.1vh 3.5vw;
+/*! padding: 1% 0% 2%; */
 }
 
 /* Overlay sloj */
 .tekst .overlay {
 position: absolute;
-transform: translateY(0%);
+transform: translateY(100%);
 z-index: 10;
 /*! background: #e10874; */
 }
@@ -136,51 +127,58 @@ z-index: 10;
 /* Aktivni tekst */
 .tekst:target {
 opacity: 1;
-transform: translateY(-0.3vw);
+/*! transform: translateX(6vw); */
 pointer-events: auto;
-background-color: #000000a3;
+background-color: #000000ba;
+  border-top: 2px solid #ffffff70;
+  border-right: 20px solid #ffffff70;
+  border-left: 20px solid #ffffff70;
+  border-bottom: 2px solid #ffffff70;
+    border-radius: 10px;
+padding: 2% 4%;
 }
 
 /* Pokreće zavjesu */
 .tekst:target .overlay {
-transform: translateY(-100%);
+transform: translateY(0%);
 transition-delay: 0.1s;
 }
 
-/* Ticker & corners */
-/* Ticker */
+/* Trake */
 .traka-gore {
 position: absolute;
 bottom: 5%;
-width: 70%;
+width: 68%;
 background: #000000b8;
 color: white;
 z-index: 1;
-text-align: center;
+text-align: left;
 height: 20%;
 right: 0;
 letter-spacing: -1%;
-font-size: 8rem;
+font-size: 7.5rem;
 font-weight: 600;
 text-shadow: 3px 3px 0px black;
+padding-left: 2.2rem;
 }
 
 .traka-gore-prva {
 position: absolute;
 bottom: 5%;
 width: 100%;
-background: #0404048f;
+background: #040404c7;
 color: #fff;
 padding: 0% 0% 4%;
 z-index: 1;
 text-align: left;
-height: 12%;
+height: 13.1%;
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -2%;
 font-size: 7rem;
 font-weight: 600;
 text-align: center;
+text-shadow: 4px 4px 3px #000;
 }
 
 .traka-gore-mobi {
@@ -191,7 +189,7 @@ display: none;
 position: absolute;
 bottom: 5%;
 width: 67%;
-background: #0004ff;
+background: #f00;
 color: white;
 z-index: 2;
 text-align: left;
@@ -240,7 +238,7 @@ display: block;
 
 .ticker-linkovi {
 position: absolute;
-bottom: 26%;
+bottom: 25%;
 /*! width: 60%; */
 /*! background: #000; */
 color: white;
@@ -248,29 +246,34 @@ z-index: 4;
 height: 2.8%;
 font-size: 1.0rem;
 font-weight: 600;
-left: 3%;
+left: 31%;
+display: block;
 }
 
 .ticker-linkovi-prva {
 position: absolute;
-bottom: 26.5%;
+bottom: 27.4%;
+/*! background: #000; */
 color: white;
 z-index: 4;
+height: 2.8%;
+font-size: 1.0rem;
 font-weight: 600;
-left: 26%;
+left: 27%;
+display: block;
 }
 
 .ticker-pitanje {
 position: absolute;
 bottom: 5%;
 width: 30%;
-background: rgba(10, 117, 213, 0.66);
+background: rgba(125, 5, 5, 0.78);
 color: white;
 padding: 0% 0% 4%;
 z-index: 1;
 text-align: center;
 height: 13%;
-font-size: 7rem;
+font-size: 7.7rem;
 font-weight: 600;
 left: 0;
 text-shadow: 3px 3px 0px black;
@@ -311,16 +314,15 @@ background: rgba(255, 0, 0, 0.84);
 color: white;
 padding: 0.5rem;
 z-index: 1;
-
+display: block;
 }
-
 
 .live {
 /*! background: #cccccc; */
 font-size: 3rem;
 font-weight: 600;
 text-shadow: 3px 3px 0px black;
-
+display: block;
 }
 
 .city {
@@ -331,40 +333,43 @@ font-weight: 600;
 margin-top: 0.4rem;
 color: #141414;
 text-align: center;
-
+display: block;
 }
 
 .connect {
 position: absolute;
 top: 16%;
-right: 0.8%;
+right: 3%;
 color: white;
 z-index: 1;
-font-size: 1.3rem;
+font-size: 1.6rem;
 font-weight: 600;
 text-shadow: 1.2px 1.2px 0.2px black;
-text-align: center;
-
+text-align: right;
+display: block;
 }
 
 .social {
 font-size: 2%;
 font-weight: 500;
 /*! color: white; */
-text-align: center;
+text-align: right;
 display: block ruby;
 margin-bottom: 0.5rem;
 margin-top: 0.3rem;
+display: block;
 }
 
 .social-icon {
 margin-left: 0.3rem;
 margin-top: 0.3rem;
 margin-bottom: 0.3rem;
+display: inline-block;
 }
 
 .social-icon a :hover{
 scale: 115%;
+display: block;
 }
 
 .social-mail {
@@ -372,7 +377,9 @@ background: #37373700;
 font-weight: 500;
 color: white;
 text-align: right;
-margin-right: 0.5rem;
+/*! margin-right: 0.5rem; */
+font-size: 1.1rem;
+display: block;
 }
 
 .social-mail a {
@@ -381,23 +388,25 @@ font-weight: 500;
 color: white;
 text-decoration: none;
 padding: 0.3rem 1.5rem;
+display: block;
 }
 
 .social-mail a:hover {
 background: #37373700;
 font-weight: 500;
 color: white;
+display: block;
 }
 
 .yutu {
 position: absolute;
-top: 30%;
-right: 2%;
+top: 29%;
+right: 3%;
 background: rgb(255, 0, 6);
 color: white;
 padding: 0.3rem 0.2rem 0.01rem;
 z-index: 1;
-scale: 110%;
+/*! scale: 120%; */
 display: block;
 }
 
@@ -430,12 +439,13 @@ transform: translateY(-300%);
 
 .mala-slova-box {
 position: absolute;
-top: 49%;
-left: 0;
+top: 69%;
+left: 31%;
 /*! background: rgba(255, 0, 0, 0.7); */
 color: white;
 z-index: 1;
-width: 45%;
+width: 40%;
+scale: 107%;
 }
 
 .tablica-box {
@@ -443,163 +453,40 @@ background: rgb(0, 171, 255);
 z-index: 1;
 }
 
-/* Links */
-.links {
-/*! padding: 0.3rem 2.1rem 0 1rem; */
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	/*! font-weight:bold; */
+	padding:9px 34px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b23e35;
+	text-transform: uppercase;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
-.links a {
-/*! background: #141414; */
-color: #ffffff;
-padding: 0.5rem 1.8rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-box-shadow: 3px 3px 3px #00000070;
-/*! margin-right: 1rem; */
-}
-
-.links a:hover {
-/*! background: #141414; */
-color: #000000;
-padding: 0.5rem 1.8rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ffffff;
-box-shadow: 3px 3px #000;
-}
-
-.links a:active {
-background-color: #414141;
-padding: 0.5rem 1.8rem;
-border-style: solid;
-border-width: 0.05rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
-}
-
-.links-prva {
-/*! padding: 0.5rem 1.8rem; */
-}
-
-.links-prva a {
-color: #000000;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-background-color: #ffffff;
-box-shadow: 2px 2px 3px #00000070;
-}
-
-.links-prva a:hover {
-color: #ffffff;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-box-shadow: 3px 3px #000;
-}
-
-.links-prva a:active {
-background-color: #414141;
-padding: 0.2rem 2.4rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
-}
 
 .mali-logo {
 z-index: 15;
 }
 
 .mali-logo-gore {
-z-index: 15;/
+z-index: 15;
 scale: 9%;
 transform: translateY(-492%) translateX(394%);
-}
-
-.prvo-gore {
-color: white;
-z-index: 1;
-text-align: center;
-font-size: 2.8rem;
-left: 41%;
-font-weight: 600;
-}
-
-.prvo-gore-zasto {
-z-index: 1;
-text-align: center;
-font-size: 2.8rem;
-left: 41%;
-font-weight: 600;
-}
-
-.prvo-dolje {
-top: 30%;
-color: white;
-z-index: 1;
-text-align: center;
-font-size: 1.8rem;
-left: 27%;
-font-weight: 500;
-}
-
-.prvo-dolje-zasto {
-top: 30%;
-z-index: 1;
-text-align: center;
-font-size: 1.1rem;
-left: 27%;
-font-weight: 500;
-margin: 0.9rem 0rem;
-}
-
-.drugo-gore {
-top: 53%;
-color: white;
-z-index: 1;
-text-align: center;
-font-size: 2.0rem;
-left: 43%;
-line-height: 1.7rem;
-}
-
-.drugo-gore-zasto {
-top: 53%;
-z-index: 1;
-text-align: center;
-font-size: 1.2rem;
-left: 43%;
-line-height: 1.4rem;
-font-weight: 500;
-}
-
-.drugo-dolje {
-top: 57%;
-color: white;
-z-index: 1;
-text-align: center;
-font-size: 1.4rem;
-left: 26%;
-line-height: 1.7rem;
-}
-
-.drugo-dolje-zasto {
-top: 57%;
-z-index: 1;
-text-align: center;
-font-size: 1.1rem;
-left: 26%;
-line-height: 1.7rem;
-}
-
-.ticker-ld {
-position: absolute;
-bottom: 42%;
-z-index: 10;
-left: 21%;
 }
 
 .zasto {
@@ -643,11 +530,12 @@ margin-top: 0%;
     z-index: 1;
     position: absolute;
     width: 97%;
-    height: 130%;
+    height: 89%;
     overflow: hidden;
-    scale: 78%;
+    scale: 104%;
     transform: translateX(0%) translateY(-9%);
-    zoom: 44%;
+    zoom: 50%;
+    top: 5rem;
     }
 
 .yutu {
@@ -812,75 +700,9 @@ color: white;
 display: none;
 }
 
-/* Links */
-.links {
-/*! padding: 0.3rem 2.1rem 0 1rem; */
-}
-
-.links a {
-/*! background: #141414; */
-color: #ffffff;
-padding: 0.3rem 1rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-/*! box-shadow: 3px 3px 3px #00000070; */
-/*! margin-right: 1rem; */
-}
-
-.links a:hover {
-/*! background: #141414; */
-color: #000000;
-padding: 0.5rem 1.8rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ffffff;
-box-shadow: 3px 3px #000;
-}
-
-.links a:active {
-background-color: #414141;
-padding: 0.5rem 1.8rem;
-border-style: solid;
-border-width: 0.05rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
-}
-
-.links-prva {
-/*! padding: 0.5rem 1.8rem; */
-}
-
-.links-prva a {
-color: #000000;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-background-color: #ffffff;
-box-shadow: 2px 2px 3px #00000070;
-}
-
-.links-prva a:hover {
-color: #ffffff;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-box-shadow: 3px 3px #000;
-}
-
-.links-prva a:active {
-background-color: #414141;
-padding: 0.2rem 2.4rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
-}
-
 .ticker-linkovi {
 position: absolute;
-bottom: 30%;
+bottom: 51%;
 /*! width: 60%; */
 /*! background: #000; */
 color: white;
@@ -889,6 +711,7 @@ height: 2.8%;
 font-size: 0.8rem;
 font-weight: 600;
 left: 3%;
+display: none;
 }
 
   .svg-back {
@@ -928,12 +751,14 @@ left: 3%;
   .video {
     z-index: 1;
     position: relative;
-    width: 329%;
-    height: 322vh;
+    width: 99%;
+    height: 99vh;
     overflow: hidden;
-    scale: 93%;
-    transform: translateY(-2%) translateX(-15%);
+    scale: 101%;
+    transform: translateY(-29%) translateX(0%);
     /*! justify-content: center; */
+    zoom: 22%;
+    top: -33%;
     }
 
 
@@ -971,7 +796,7 @@ display: none;
 
 .traka-gore-mobi {
 position: absolute;
-bottom: 34px;
+bottom: 16%;
 width: 100%;
 background: #0404048f;
 color: #fff;
@@ -982,10 +807,11 @@ height: 13%;
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -2%;
-font-size: 2.5rem;
+font-size: 3.2rem;
 font-weight: 600;
 text-align: center;
 display: block;
+text-shadow: 2px 2px 0px #000;
 }
 
 .traka-sredina-mobi {
@@ -996,193 +822,50 @@ background: #f00;
 color: white;
 z-index: 5;
 text-align: center;
-height: 10%;
+height: 15%;
 right: 0;
 line-height: 141%;
 text-shadow: 2px 2px 0px black;
 display: block;
-font-size: 1.27rem;
-padding-top: 1rem;
+font-size: 1.6rem;
+padding: 1rem 0rem 0rem 2rem;
 font-weight: 600;
 margin-top: 1rem;
 }
-
-
-
 .top-left {
-position: absolute;
-top: -4%;
-left: -4%;
-background: #1414145c;
-color: white;
-z-index: 1;
-scale: 60%;
+display: none;
 }
-
-.top-right {
-position: absolute;
-top: 2.5%;
-right: 4%;
-background: rgba(255, 0, 0, 0.84);
-color: white;
-padding: 0.5rem;
-z-index: 1;
-}
-
-.live {
-/*! background: #cccccc; */
-font-size: 3rem;
-font-weight: 600;
-text-shadow: 3px 3px 0px black;
-}
-
-.city {
-background: white;
-font-size: 1rem;
-font-weight: 600;
-/*! margin-left: 2.7rem; */
-margin-top: 0.4rem;
-color: #141414;
-text-align: center;
-}
-
-.connect {
-position: absolute;
-top: 15%;
-right: 6%;
-color: white;
-z-index: 1;
-font-size: 1.3rem;
-font-weight: 600;
-text-shadow: 1.2px 1.2px 0.2px black;
-text-align: right;
-}
-
-.social {
-font-size: 2%;
-font-weight: 500;
-/*! color: white; */
-text-align: center;
-/*! display: block ruby; */
-margin-bottom: 0.5rem;
-margin-top: 0.3rem;
-margin-right: -2.2rem;
-}
-
-.social-icon {
-margin-left: 0.3rem;
-margin-top: 0.3rem;
-margin-bottom: 0.3rem;
 }
 
 .social-icon a :hover{
-scale: 115%;
-}
-
-.social-mail {
-background: #37373700;
-font-weight: 500;
-color: white;
-text-align: right;
-margin-right: -1rem;
-}
-
-.social-mail a {
-background: #0000008a;
-font-weight: 500;
-color: white;
-text-decoration: none;
-padding: 0.3rem 1.5rem;
+display: none;
 }
 
 .social-mail a:hover {
-background: #37373700;
-font-weight: 500;
-color: white;
+display: none;
 }
 
 .zatablicu {
 display: none;
 }
 
-/* Links */
-.links {
-/*! padding: 0.3rem 2.1rem 0 1rem; */
-}
-
-.links a {
-/*! background: #141414; */
-color: #ffffff;
-padding: 0.5rem 1.8rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-box-shadow: 3px 3px 3px #00000070;
-/*! margin-right: 1rem; */
-display: flex;
-}
-
-.links a:hover {
-/*! background: #141414; */
-color: #000000;
-padding: 0.5rem 1.8rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ffffff;
-box-shadow: 3px 3px #000;
-}
-
-.links a:active {
-background-color: #414141;
-padding: 0.5rem 1.8rem;
-border-style: solid;
-border-width: 0.05rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
-}
-
-.links-prva {
-/*! padding: 0.5rem 1.8rem; */
-}
-
-.links-prva a {
-color: #000000;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-background-color: #ffffff;
-box-shadow: 2px 2px 3px #00000070;
-}
-
-.links-prva a:hover {
-color: #ffffff;
-padding: 0.2rem 2.4rem;
-text-decoration: none;
-border-style: solid;
-border-width: 0.05rem;
-background-color: #ff0000;
-box-shadow: 3px 3px #000;
-}
-
-.links-prva a:active {
-background-color: #414141;
-padding: 0.2rem 2.4rem;
-color: #ffffff;
-box-shadow: 3px 3px #3c3c3c;
+.ticker-linkovi-prva {
+display: none;
 }
 
 .ticker-linkovi {
 position: absolute;
-bottom: 31%;
-/*! width: 60%; */
-/*! background: #000; */
+bottom: 25%;
+/*! width: 100%; */
+/*! background: #570000c4; */
 color: white;
 z-index: 4;
-height: 2.8%;
-font-size: 1.0rem;
-font-weight: 600;
-left: 3%;
+height: 5%;
+left: 0%;
+padding-left: 30%;
+padding-top: 0.5%;
+/*! margin-left: 0%; */
+display: block;
 }
 
   .mobile-content {
@@ -1206,4 +889,4 @@ left: 3%;
     font-size: 1rem;
     line-height: 1.5;
   }
-}
+
