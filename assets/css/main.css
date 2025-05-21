@@ -15,7 +15,7 @@ font-family: 'Rubik', sans-serif;
 width: 100vw;
 min-height: 100vh;
 position: relative;
-background-color: #cccccc;
+background-color: #141414;
 }
 
 /* Izmedju stranica */
@@ -108,12 +108,13 @@ text-align: center;
 .tekstovi .tekst {
 opacity: 0;
 transform: translateY(-100%);
-transition: opacity 0.5s ease 0.2s, transform 0.2s ease 0.2s;
+transition: opacity 0.3s ease 0.1s;
 position: absolute;
 /*! width: 100%; */
 overflow: hidden;
 pointer-events: none;
-/*! padding: 1% 0% 2%; */
+padding: 2% 7%;
+width: 91%;
 }
 
 /* Overlay sloj */
@@ -130,12 +131,13 @@ opacity: 1;
 /*! transform: translateX(6vw); */
 pointer-events: auto;
 background-color: #000000ba;
-  border-top: 2px solid #ffffff70;
-  border-right: 20px solid #ffffff70;
-  border-left: 20px solid #ffffff70;
-  border-bottom: 2px solid #ffffff70;
+  border-top: 2px solid #f006;
+  border-right: 20px solid #f006;
+  border-left: 20px solid #f006;
+  border-bottom: 2px solid #f006;
     border-radius: 10px;
-padding: 2% 4%;
+padding: 4% 4%;
+width: 91%;
 }
 
 /* Pokreće zavjesu */
@@ -238,16 +240,18 @@ display: block;
 
 .ticker-linkovi {
 position: absolute;
-bottom: 25%;
-/*! width: 60%; */
-/*! background: #000; */
+bottom: 27.5%;
 color: white;
 z-index: 4;
 height: 2.8%;
 font-size: 1.0rem;
 font-weight: 600;
-left: 31%;
+left: 30%;
 display: block;
+}
+
+.ticker-linkovi-mobi {
+display: none;
 }
 
 .ticker-linkovi-prva {
@@ -259,15 +263,16 @@ z-index: 4;
 height: 2.8%;
 font-size: 1.0rem;
 font-weight: 600;
-left: 27%;
+left: 29%;
 display: block;
+scale: 95%;
 }
 
 .ticker-pitanje {
 position: absolute;
 bottom: 5%;
 width: 30%;
-background: rgba(125, 5, 5, 0.78);
+background: rgba(5, 80, 125, 0.78);
 color: white;
 padding: 0% 0% 4%;
 z-index: 1;
@@ -297,7 +302,7 @@ left: 0;
 /* Corners */
 .top-left {
 position: absolute;
-top: 1%;
+top: 2%;
 left: 3%;
 background: #1414145c;
 color: white;
@@ -321,8 +326,7 @@ display: block;
 /*! background: #cccccc; */
 font-size: 3rem;
 font-weight: 600;
-text-shadow: 3px 3px 0px black;
-display: block;
+text-shadow: 1px 1px 0px black;
 }
 
 .city {
@@ -330,46 +334,48 @@ background: white;
 font-size: 1rem;
 font-weight: 600;
 /*! margin-left: 2.7rem; */
-margin-top: 0.4rem;
+/*! margin-top: 0.4rem; */
 color: #141414;
 text-align: center;
-display: block;
 }
 
 .connect {
 position: absolute;
-top: 16%;
+top: 15%;
 right: 3%;
-color: white;
+/*! color: white; */
 z-index: 1;
-font-size: 1.6rem;
-font-weight: 600;
-text-shadow: 1.2px 1.2px 0.2px black;
-text-align: right;
-display: block;
+/*! font-size: 1.6rem; */
+/*! font-weight: 600; */
+/*! text-shadow: 1.2px 1.2px 0.2px black; */
+/*! text-align: right; */
+/*! display: block; */
 }
 
 .social {
 font-size: 2%;
-font-weight: 500;
+/*! font-weight: 500; */
 /*! color: white; */
 text-align: right;
 display: block ruby;
 margin-bottom: 0.5rem;
 margin-top: 0.3rem;
-display: block;
+/*! display: block; */
+/*! background-color: #141414a6; */
+padding-right: 0.4rem;
 }
 
 .social-icon {
 margin-left: 0.3rem;
 margin-top: 0.3rem;
 margin-bottom: 0.3rem;
-display: inline-block;
+/*! display: inline-block; */
 }
 
 .social-icon a :hover{
-scale: 115%;
-display: block;
+
+scale: 110%;
+z-index: 1;
 }
 
 .social-mail {
@@ -377,25 +383,21 @@ background: #37373700;
 font-weight: 500;
 color: white;
 text-align: right;
-/*! margin-right: 0.5rem; */
 font-size: 1.1rem;
-display: block;
 }
 
 .social-mail a {
-background: #0000008a;
+background: #141414c0;
 font-weight: 500;
 color: white;
 text-decoration: none;
 padding: 0.3rem 1.5rem;
-display: block;
 }
 
 .social-mail a:hover {
-background: #37373700;
+background: #ccccccc5;
 font-weight: 500;
-color: white;
-display: block;
+color: rgb(255, 0, 0);
 }
 
 .yutu {
@@ -412,40 +414,41 @@ display: block;
 
 .zatablicu {
 position: absolute;
-top: 21%;
-right: 29%;
-background: rgba(68, 255, 0, 0.6);
+top: 27%;
+right: 30%;
+/*! background: rgba(68, 255, 0, 0.6); */
 z-index: 1;
 width: 40%;
-text-align: left;
+text-align: center;
 }
 
 .zatablicu a {
 position: absolute;
-/*! top: -40%; */
-right: 19%;
-background: rgba(0, 0, 0, 0.6);
+/*! top: -43%; */
+right: 14%;
+background: rgba(0, 0, 0, 0.8);
 color: white;
-padding: 1rem 1rem 1rem 1rem;
+padding: 0.5rem 3rem;
 z-index: 1;
 /*! font-size: 1.44rem; */
-font-weight: 600;
+/*! font-weight: 600; */
 text-shadow: 2px 2px 0px black;
 border-style: solid;
 border-width: 0.08rem;
 text-decoration: none;
-transform: translateY(-300%);
+transform: translateY(-330%);
+line-height: 1.5rem;
 }
 
 .mala-slova-box {
 position: absolute;
 top: 69%;
-left: 31%;
+left: 30%;
 /*! background: rgba(255, 0, 0, 0.7); */
 color: white;
 z-index: 1;
-width: 40%;
-scale: 107%;
+width: 42%;
+/*! scale: 100%; */
 }
 
 .tablica-box {
@@ -565,6 +568,10 @@ display: none;
 }
 
 .ticker-podpitanje {
+display: none;
+}
+
+.ticker-linkovi-prva {
 display: none;
 }
 
@@ -699,18 +706,13 @@ display: none;
 }
 
 .ticker-linkovi {
-position: absolute;
-bottom: 51%;
-/*! width: 60%; */
-/*! background: #000; */
-color: white;
-z-index: 4;
-height: 2.8%;
-font-size: 0.8rem;
-font-weight: 600;
-left: 3%;
 display: none;
 }
+
+.ticker-linkovi-mobi {
+display: none;
+}
+
 
   .svg-back {
     position: absolute;
@@ -721,11 +723,8 @@ display: none;
     z-index: 0;
   }
 
-  .tekst,
-  .linkovi {
-    position: relative;
-    z-index: 2;
-  }
+
+  
 }
 
 
@@ -829,9 +828,9 @@ padding: 1rem 0rem 0rem 2rem;
 font-weight: 600;
 margin-top: 1rem;
 }
+
 .top-left {
 display: none;
-}
 }
 
 .social-icon a :hover{
@@ -846,23 +845,138 @@ display: none;
 display: none;
 }
 
+.ticker-linkovi {
+display: none;
+}
+
 .ticker-linkovi-prva {
 display: none;
 }
 
-.ticker-linkovi {
+.ticker-linkovi-mobi {
 position: absolute;
-bottom: 25%;
-/*! width: 100%; */
-/*! background: #570000c4; */
-color: white;
+top: 21.5%;
+/*! color: white; */
 z-index: 4;
-height: 5%;
-left: 0%;
-padding-left: 30%;
-padding-top: 0.5%;
-/*! margin-left: 0%; */
-display: block;
+/*! height: 2.8%; */
+/*! font-size: 1.0rem; */
+/*! font-weight: 600; */
+/*! left: 2%; */
+display: grid;
+text-align: center;
+padding: 0.5rem 1rem;
+width: 94%;
+}
+
+.myButton-m {
+	box-shadow:inset 0px 0px 0px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:7px;
+	border:1px solid #d83526;
+	display:grid;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 34px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #b23e35;
+	text-transform: uppercase;
+	margin-bottom: 0.3rem;
+}
+.myButton-m:hover {
+	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+.myButton-m:active {
+	position:relative;
+	top:1px;
+}
+
+.top-right {
+position: absolute;
+top: 1.5%;
+right: 3%;
+background: rgba(255, 0, 0, 0.84);
+color: white;
+/*! padding: 0.5rem; */
+z-index: 1;
+/*! display: block; */
+}
+
+.connect {
+position: absolute;
+top: 47%;
+right: 1%;
+color: white;
+z-index: 1;
+font-size: 1.3rem;
+font-weight: 600;
+text-shadow: 1.2px 1.2px 0.2px black;
+text-align: r;
+}
+
+.live {
+/*! background: #cccccc; */
+font-size: 2rem;
+font-weight: 600;
+text-shadow: 1px 1px 0px black;
+/*! display: block; */
+}
+
+.city {
+background: white;
+font-size: 0.8rem;
+font-weight: 600;
+/*! margin-left: 2.7rem; */
+margin-top: 0.2%;
+color: #141414;
+/*! text-align: center; */
+padding-top: 4.5%;
+letter-spacing: -1.8%;
+}
+
+.social {
+font-size: 2%;
+font-weight: 500;
+/*! color: white; */
+text-align: center;
+/*! display: block ruby; */
+margin-bottom: 0.5rem;
+margin-top: 0.3rem;
+}
+
+.social-icon {
+margin-left: 0.3rem;
+margin-top: 0.3rem;
+margin-bottom: 0.3rem;
+}
+
+.social-icon a :hover{
+scale: 115%;
+}
+
+.social-mail {
+background: #37373700;
+font-weight: 500;
+color: white;
+text-align: right;
+margin-right: 0.5rem;
+}
+
+.social-mail a {
+background: #0000008a;
+font-weight: 500;
+color: white;
+text-decoration: none;
+padding: 0.3rem 1.5rem;
+}
+
+.social-mail a:hover {
+background: #37373700;
+font-weight: 500;
+color: white;
 }
 
   .mobile-content {
@@ -886,4 +1000,4 @@ display: block;
     font-size: 1rem;
     line-height: 1.5;
   }
-
+}
