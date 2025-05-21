@@ -15,7 +15,7 @@ font-family: 'Rubik', sans-serif;
 width: 100vw;
 min-height: 100vh;
 position: relative;
-background-color: #666;
+background-color: #141414;
 }
 
 /* Izmedju stranica */
@@ -174,7 +174,7 @@ letter-spacing: -1%;
 font-size: 7.5rem;
 font-weight: 600;
 text-shadow: 3px 3px 0px black;
-padding-left: 2%;
+padding-left: 2.2rem;
 }
 
 .traka-gore-prva {
@@ -240,14 +240,14 @@ display: none;
 
 .traka-dole {
 position: absolute;
-width: 67%;
+width: 64%;
 background: #000000cf;
 color: white;
-z-index: 2;
+z-index: 1;
 text-align: left;
 height: 5%;
 bottom: 0;
-padding-left: 33%;
+padding-left: 30%;
 display: block;
 }
 
@@ -257,7 +257,7 @@ bottom: 27.5%;
 color: white;
 z-index: 4;
 height: 2.8%;
-/*! font-size: 1.0rem; */
+font-size: 1.0rem;
 font-weight: 600;
 left: 30%;
 display: block;
@@ -287,11 +287,11 @@ bottom: 5%;
 width: 30%;
 background: rgba(5, 80, 125, 0.78);
 color: white;
-/*! padding: 0% 0% 4%; */
+padding: 0% 0% 4%;
 z-index: 1;
 text-align: center;
-height: 20%;
-font-size: 7.5rem;
+height: 13%;
+font-size: 7.7rem;
 font-weight: 600;
 left: 0;
 text-shadow: 3px 3px 0px black;
@@ -369,7 +369,7 @@ padding-right: 0.4rem;
 .social-icon {
 margin-left: 0.3rem;
 margin-top: 0.3rem;
-margin-bottom: 0.2rem;
+margin-bottom: 0.3rem;
 /*! display: inline-block; */
 }
 
@@ -460,7 +460,7 @@ border:1px solid #d83526;
 display:inline-block;
 cursor:pointer;
 color:#ffffff;
-font-size:math;
+font-size:19px;
 /*! font-weight:bold; */
 padding:9px 34px;
 text-decoration:none;
@@ -496,15 +496,15 @@ padding: 2vh 5vw;
 
 .video {
 z-index: 1;
-/*! position: absolute; */
-width: 100%;
-/*! height: 97%; */
+position: absolute;
+/*! width: 100%; */
+height: 93%;
 overflow: hidden;
-/*! scale: 100%; */
+/*! scale: 104%; */
 /*! transform: translateX(0%) translateY(-9%); */
-zoom: 43%;
-/*! top: 0rem; */
-left: 0%;
+zoom: 40%;
+top: 0rem;
+/*! left: 9rem; */
 }
 
 .yutu {
@@ -580,18 +580,18 @@ display: block;
 
 .top-left {
 position: absolute;
-top: -12%;
+top: -18%;
 left: 3%;
 background: #1414145c;
 color: white;
 z-index: 1;
-scale: 50%;
+scale: 40%;
 }
 
 .top-right {
 position: absolute;
-top: 5%;
-right: 8%;
+top: 3%;
+right: 11%;
 background: rgba(255, 0, 0, 0.84);
 color: white;
 padding: 0.5rem;
@@ -617,8 +617,8 @@ text-align: center;
 
 .connect {
 position: absolute;
-top: 54%;
-right: 7%;
+top: 40%;
+right: 8%;
 color: white;
 z-index: 1;
 font-size: 1.3rem;
@@ -739,15 +739,15 @@ padding: 2vh 5vw;
 
 .video {
 z-index: 1;
-position: absolute;
-/*! width: 99%; */
-/*! height: 99vh; */
+position: relative;
+width: 99%;
+height: 99vh;
 overflow: hidden;
 scale: 101%;
 transform: translateY(-29%) translateX(0%);
 /*! justify-content: center; */
 zoom: 22%;
-top: -82%;
+top: -33%;
 }
 
 
@@ -785,18 +785,18 @@ display: none;
 
 .traka-gore-mobi {
 position: absolute;
-bottom: 20%;
+bottom: 22%;
 width: 100%;
 background: #000000bd;
 color: #fff;
 padding: 2% 1% 0%;
 z-index: 1;
 text-align: left;
-height: 4%;
+height: 6%;
 /*! font-size: 6rem; */
 /*! right: 0; */
-/*! letter-spacing: -1%; */
-font-size: math;
+letter-spacing: -1%;
+font-size: 2.7rem;
 font-weight: 600;
 text-align: center;
 display: block;
@@ -809,14 +809,14 @@ bottom: 0px;
 width: 100%;
 background: #f00;
 color: white;
-z-index: 7;
+z-index: 5;
 text-align: center;
-height: 6%;
+height: 13%;
 right: 0;
 line-height: 141%;
 text-shadow: 2px 2px 0px black;
 display: block;
-font-size: math;
+font-size: 1.6rem;
 padding: 1rem 0rem 1rem 0rem;
 font-weight: 600;
 margin-top: 1rem;
@@ -848,8 +848,8 @@ display: none;
 
 .ticker-linkovi-mobi {
 position: absolute;
-top: 30.5%;
-z-index: 6;
+top: 21.5%;
+z-index: 4;
 display: grid;
 text-align: center;
 padding: 0.5rem 1rem;
@@ -889,14 +889,14 @@ right: 3%;
 background: rgba(255, 0, 0, 0.84);
 color: white;
 /*! padding: 0.5rem; */
-z-index: 5;
+z-index: 1;
 /*! display: block; */
 }
 
 .connect {
 position: absolute;
-top: 80%;
-right: 0%;
+top: 78%;
+right: 0;
 color: white;
 z-index: 9;
 font-size: 1.3rem;
@@ -905,8 +905,8 @@ text-shadow: 1.2px 1.2px 0.2px black;
 text-align: r;
 background-color: #333;
 display: flex;
-width: 100%;
-/*! padding: 0% 10%; */
+width: 80%;
+padding: 0% 10%;
 }
 
 .live {
@@ -930,15 +930,13 @@ letter-spacing: -1.8%;
 }
 
 .social {
-/*! font-size: 2%; */
-/*! font-weight: 500; */
+font-size: 2%;
+font-weight: 500;
 /*! color: white; */
-/*! text-align: center; */
+text-align: center;
 /*! display: block ruby; */
-/*! margin-bottom: 0.5rem; */
-/*! margin-top: 0.3rem; */
-z-index: 1;
-margin-left: 4%;
+margin-bottom: 0.5rem;
+margin-top: 0.3rem;
 }
 
 .social-icon {
@@ -951,10 +949,10 @@ scale: 115%;
 
 .social-mail {
 background: #37373700;
-/*! font-weight: 500; */
+font-weight: 500;
 color: white;
-/*! text-align: right; */
-margin-left: -1rem;
+text-align: right;
+/*! margin-right: 0.5rem; */
 margin-top: 1rem;
 }
 
@@ -964,7 +962,7 @@ font-weight: 500;
 color: white;
 text-decoration: none;
 /*! padding: 0.3rem 1.5rem; */
-font-size: math;
+font-size: 1.3rem;
 }
 
 .social-mail a:hover {
@@ -1048,14 +1046,13 @@ transition-delay: 0.1s;
 
 .mala-slova-box-mobi {
 position: absolute;
-top: 79%;
-left: -6%;
+top: 67%;
+left: 3%;
 /*! background: rgba(255, 0, 0, 0.7); */
 color: white;
 z-index: 1;
-width: 104%;
+width: 85%;
 display: block;
-scale: 80%;
 }
 
 .mala-slova-box {
