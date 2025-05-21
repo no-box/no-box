@@ -545,14 +545,14 @@ display: none;
 
 .traka-gore-mobi {
 position: absolute;
-bottom: 5%;
+bottom: 8%;
 width: 100%;
 background: #0404048f;
 color: #fff;
-padding: 0% 2% 4%;
+/*! padding: 0% 2% 4%; */
 z-index: 1;
 text-align: left;
-height: 12%;
+height: 27%;
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -2%;
@@ -570,7 +570,7 @@ background: #f00;
 color: white;
 z-index: 5;
 text-align: center;
-height: 7%;
+height: 8%;
 right: 0;
 /*! line-height: 1%; */
 /*! padding-left: 2%; */
@@ -580,8 +580,8 @@ display: block;
 
 .top-left {
 position: absolute;
-top: -18%;
-left: 3%;
+top: -21%;
+left: 0%;
 background: #1414145c;
 color: white;
 z-index: 1;
@@ -591,7 +591,7 @@ scale: 40%;
 .top-right {
 position: absolute;
 top: 3%;
-right: 11%;
+right: 9%;
 background: rgba(255, 0, 0, 0.84);
 color: white;
 padding: 0.5rem;
@@ -617,7 +617,7 @@ text-align: center;
 
 .connect {
 position: absolute;
-top: 40%;
+top: 33%;
 right: 8%;
 color: white;
 z-index: 1;
@@ -785,18 +785,18 @@ display: none;
 
 .traka-gore-mobi {
 position: absolute;
-bottom: 22%;
+bottom: 13%;
 width: 100%;
 background: #000000bd;
 color: #fff;
 padding: 2% 1% 0%;
-z-index: 1;
+z-index: 16;
 text-align: left;
-height: 6%;
+/*! height: 5%; */
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -1%;
-font-size: 2.7rem;
+font-size: 2rem;
 font-weight: 600;
 text-align: center;
 display: block;
@@ -805,18 +805,18 @@ text-shadow: 2px 2px 0px #000;
 
 .traka-sredina-mobi {
 position: absolute;
-bottom: 0px;
+bottom: 0;
 width: 100%;
 background: #f00;
 color: white;
 z-index: 5;
 text-align: center;
-height: 13%;
+height: 8%;
 right: 0;
 line-height: 141%;
 text-shadow: 2px 2px 0px black;
 display: block;
-font-size: 1.6rem;
+font-size: 1.3rem;
 padding: 1rem 0rem 1rem 0rem;
 font-weight: 600;
 margin-top: 1rem;
@@ -894,19 +894,7 @@ z-index: 1;
 }
 
 .connect {
-position: absolute;
-top: 78%;
-right: 0;
-color: white;
-z-index: 9;
-font-size: 1.3rem;
-font-weight: 600;
-text-shadow: 1.2px 1.2px 0.2px black;
-text-align: r;
-background-color: #333;
-display: flex;
-width: 80%;
-padding: 0% 10%;
+display: block;
 }
 
 .live {
@@ -936,7 +924,8 @@ font-weight: 500;
 text-align: center;
 /*! display: block ruby; */
 margin-bottom: 0.5rem;
-margin-top: 0.3rem;
+/*! margin-top: 0.3rem; */
+transform: translateY(-7rem) translateX(-11rem);
 }
 
 .social-icon {
@@ -948,12 +937,14 @@ scale: 115%;
 }
 
 .social-mail {
-background: #37373700;
+background: #000000d6;
 font-weight: 500;
 color: white;
 text-align: right;
 /*! margin-right: 0.5rem; */
-margin-top: 1rem;
+/*! margin-top: 0rem; */
+transform: translateY(-4rem) translateX(0rem);
+padding: 0.2rem 1rem;
 }
 
 .social-mail a {
@@ -962,7 +953,7 @@ font-weight: 500;
 color: white;
 text-decoration: none;
 /*! padding: 0.3rem 1.5rem; */
-font-size: 1.3rem;
+font-size: 1.2rem;
 }
 
 .social-mail a:hover {
@@ -996,10 +987,10 @@ line-height: 1.5;
 
 /* Tekstovi-mobi */
 .tekstovi-mobi {
-color: white;
+color: black;
 font-size: math;
-font-weight: 500;
-text-shadow: 1.2px 1.2px 0.2px black;
+/*! font-weight: 600; */
+/*! text-shadow: 1.2px 1.2px 4.2px white; */
 text-align: center;
 }
 
@@ -1028,14 +1019,15 @@ z-index: 10;
 opacity: 1;
 /*! transform: translateX(6vw); */
 pointer-events: auto;
-background-color: #000000ba;
+background-color: #d7d7d7ba;
 border-top: 2px solid #f006;
 border-right: 20px solid #f006;
 border-left: 20px solid #f006;
 border-bottom: 2px solid #f006;
 border-radius: 10px;
-padding: 4% 4%;
-width: 91%;
+padding: 8% 9%;
+/*! width: 91%; */
+font-size: 1.2rem;
 }
 
 /* Pokreće zavjesu */
@@ -1046,13 +1038,14 @@ transition-delay: 0.1s;
 
 .mala-slova-box-mobi {
 position: absolute;
-top: 67%;
+top: 80%;
 left: 3%;
 /*! background: rgba(255, 0, 0, 0.7); */
-color: white;
+/*! color: white; */
 z-index: 1;
-width: 85%;
+width: 77%;
 display: block;
+/*! height: 10rem; */
 }
 
 .mala-slova-box {
