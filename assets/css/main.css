@@ -792,11 +792,11 @@ color: #fff;
 padding: 2% 1% 0%;
 z-index: 16;
 text-align: left;
-/*! height: 5%; */
+height: 5%;
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -1%;
-font-size: 2rem;
+font-size: math;
 font-weight: 600;
 text-align: center;
 display: block;
@@ -816,7 +816,7 @@ right: 0;
 line-height: 141%;
 text-shadow: 2px 2px 0px black;
 display: block;
-font-size: 1.3rem;
+/*! font-size: mayh; */
 padding: 1rem 0rem 1rem 0rem;
 font-weight: 600;
 margin-top: 1rem;
@@ -894,7 +894,16 @@ z-index: 1;
 }
 
 .connect {
-display: block;
+position: absolute;
+top: 1%;
+left: 2%;
+color: white;
+z-index: 1;
+font-size: 1.3rem;
+font-weight: 600;
+text-shadow: 1.2px 1.2px 0.2px black;
+/*! text-align: left; */
+right: 73%;
 }
 
 .live {
@@ -921,11 +930,11 @@ letter-spacing: -1.8%;
 font-size: 2%;
 font-weight: 500;
 /*! color: white; */
-text-align: center;
+/*! text-align: left; */
 /*! display: block ruby; */
-margin-bottom: 0.5rem;
+/*! margin-bottom: 0.5rem; */
 /*! margin-top: 0.3rem; */
-transform: translateY(-7rem) translateX(-11rem);
+/*! transform: translateY(-9vh) translateX(-43vw); */
 }
 
 .social-icon {
@@ -937,23 +946,25 @@ scale: 115%;
 }
 
 .social-mail {
-background: #000000d6;
-font-weight: 500;
+/*! background: #000000d6; */
+/*! font-weight: 500; */
 color: white;
-text-align: right;
+/*! text-align: right; */
 /*! margin-right: 0.5rem; */
 /*! margin-top: 0rem; */
-transform: translateY(-4rem) translateX(0rem);
-padding: 0.2rem 1rem;
+/*! transform: translateY(-2vh) translateX(-42vw); */
+/*! padding: 0.2rem 1rem; */
+/*! z-index: 1; */
 }
 
 .social-mail a {
-background: #00000000;
-font-weight: 500;
-color: white;
+/*! background: #00000000; */
+/*! font-weight: 500; */
+/*! color: white; */
 text-decoration: none;
 /*! padding: 0.3rem 1.5rem; */
-font-size: 1.2rem;
+/*! font-size: 1.2rem; */
+/*! z-index: 1; */
 }
 
 .social-mail a:hover {
@@ -1038,14 +1049,15 @@ transition-delay: 0.1s;
 
 .mala-slova-box-mobi {
 position: absolute;
-top: 80%;
-left: 3%;
+top: 69%;
+left: -2%;
 /*! background: rgba(255, 0, 0, 0.7); */
 /*! color: white; */
 z-index: 1;
-width: 77%;
+width: 90%;
 display: block;
 /*! height: 10rem; */
+scale: 87%;
 }
 
 .mala-slova-box {
