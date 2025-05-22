@@ -135,6 +135,7 @@ width: 91%;
 position: absolute;
 transform: translateY(100%);
 z-index: 10;
+padding: 2% 7%;
 /*! background: #e10874; */
 }
 
@@ -155,8 +156,8 @@ width: 91%;
 
 /* Pokreće zavjesu */
 .tekst:target .overlay {
-transform: translateY(0%);
-transition-delay: 0.1s;
+transform: translateY(-100%);
+transition-delay: 0.2s ease 0.1s;
 }
 
 /* Trake */
@@ -480,6 +481,23 @@ top:1px;
 display: none;
 }
 
+.mobile-content {
+display: none;
+  }
+
+  .mobile-block {
+display: none;
+  }
+
+  .mobile-block h2 {
+display: none;
+  }
+
+  .mobile-block p {
+display: none;
+  }
+  
+
 /* MOBIL Landscape */
 
 @media (orientation: landscape) and (max-width: 1024px) {
@@ -718,6 +736,23 @@ display: none;
 .mala-slova-box {
 display: none;
 }
+
+.mobile-content {
+display: none;
+  }
+
+  .mobile-block {
+display: none;
+  }
+
+  .mobile-block h2 {
+display: none;
+  }
+
+  .mobile-block p {
+display: none;
+  }
+
 }
 
 
@@ -740,14 +775,14 @@ padding: 2vh 5vw;
 .video {
 z-index: 1;
 position: relative;
-width: 99%;
-height: 99vh;
+/*! width: 99%; */
+height: 22%;
 overflow: hidden;
-scale: 101%;
-transform: translateY(-29%) translateX(0%);
+/*! scale: 101%; */
+transform: translateY(-180%) translateX(0%);
 /*! justify-content: center; */
 zoom: 22%;
-top: -33%;
+top: 0;
 }
 
 
@@ -785,41 +820,41 @@ display: none;
 
 .traka-gore-mobi {
 position: absolute;
-bottom: 13%;
+bottom: 11%;
 width: 100%;
-background: #000000bd;
+background: #0000007a;
 color: #fff;
-padding: 2% 1% 0%;
+padding: 2% 0% 0%;
 z-index: 16;
 text-align: left;
-height: 5%;
+/*! height: 5%; */
 /*! font-size: 6rem; */
 /*! right: 0; */
 letter-spacing: -1%;
-font-size: math;
+font-size: 2rem;
 font-weight: 600;
 text-align: center;
-display: block;
-text-shadow: 2px 2px 0px #000;
+/*! display: block; */
+/*! text-shadow: 2px 2px 0px #000; */
 }
 
 .traka-sredina-mobi {
 position: absolute;
 bottom: 0;
-width: 100%;
+/*! width: 100%; */
 background: #f00;
 color: white;
 z-index: 5;
 text-align: center;
-height: 8%;
-right: 0;
-line-height: 141%;
+height: 7%;
+/*! right: 0; */
+/*! line-height: 141%; */
 text-shadow: 2px 2px 0px black;
-display: block;
+/*! display: block; */
 /*! font-size: mayh; */
 padding: 1rem 0rem 1rem 0rem;
 font-weight: 600;
-margin-top: 1rem;
+/*! margin-top: 1rem; */
 }
 
 .top-left {
@@ -1007,14 +1042,14 @@ text-align: center;
 
 .tekstovi-mobi .tekst-mobi {
 opacity: 0;
-transform: translateY(-100%);
+transform: translateY(-71%);
 transition: opacity 0.3s ease 0.1s;
 position: absolute;
 /*! width: 100%; */
 overflow: hidden;
 pointer-events: none;
-padding: 2% 7%;
-width: 91%;
+padding: 1% 4%;
+/*! width: 100%; */
 }
 
 /* Overlay sloj */
@@ -1031,14 +1066,14 @@ opacity: 1;
 /*! transform: translateX(6vw); */
 pointer-events: auto;
 background-color: #d7d7d7ba;
-border-top: 2px solid #f006;
-border-right: 20px solid #f006;
-border-left: 20px solid #f006;
-border-bottom: 2px solid #f006;
+border-top: 2px solid #f00;
+border-right: 12px solid #f00;
+border-left: 12px solid #f00;
+border-bottom: 2px solid #f00;
 border-radius: 10px;
-padding: 8% 9%;
-/*! width: 91%; */
-font-size: 1.2rem;
+/*! padding: 8% 9%; */
+width: 100%;
+font-size: 1.1rem;
 }
 
 /* Pokreće zavjesu */
@@ -1063,5 +1098,44 @@ scale: 87%;
 .mala-slova-box {
 display: none;
 }
+
+.mobile-content {
+    padding-top: 2vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    z-index: 0;
+    /*! background-color: #333; */
+    position: absolute;
+    padding-bottom: 0rem;
+    /*! transform: translateY(-8%); */
+    bottom: 0%;
+    height: 77%;
+  }
+
+  .mobile-block {
+    margin-bottom: 0.6rem;
+    border-bottom: 2px solid #f00;
+    padding-bottom: 0.5rem;
+    display: block;
+    padding-top: 0.5rem;
+  }
+
+  .mobile-block h2 {
+    font-size: 1.0rem;
+    margin-bottom: 0.9rem;
+    display: block;
+    margin-top: 1rem;
+    color: #fff;
+    line-height: 1.2rem;
+  }
+
+  .mobile-block p {
+    font-size: 1.1rem;
+    line-height: 1.1;
+    display: block;
+    color: #b7b3b1;
+    margin: 0.8rem 0rem;
+  }
 
 }
