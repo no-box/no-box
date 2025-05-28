@@ -899,9 +899,9 @@ border:1px solid #d83526;
 display:grid;
 cursor:pointer;
 color:#ffffff;
-font-size:15px;
+font-size:12px;
 font-weight:bold;
-padding:9px 34px;
+padding:9px 20px;
 text-decoration:none;
 text-shadow:0px 0px 0px #b23e35;
 text-transform: uppercase;
@@ -1066,16 +1066,17 @@ z-index: 10;
 opacity: 1;
 /*! transform: translateX(6vw); */
 pointer-events: auto;
-background-color: #d7d7d7ba;
-border-top: 2px solid #f00;
-border-right: 12px solid #f00;
-border-left: 1rem solid #f00;
-border-bottom: 2px solid #f00;
+background-color: #d7d7d700;
+border-top: 2px solid #f000;
+border-right: 12px solid #f000;
+border-left: 1rem solid #f000;
+border-bottom: 2px solid #f000;
 border-radius: 10px;
 /*! padding: 8% 9%; */
 /*! width: 100%; */
 font-size: 1.12rem;
 letter-spacing: 0.01rem;
+color: white;
 }
 
 /* Pokreće zavjesu */
@@ -1095,7 +1096,7 @@ width: 91%;
 display: block;
 /*! height: 10rem; */
 /*! scale: 87%; */
-transform: translateY(-3rem);
+transform: translateY(-2.1rem);
 }
 
 .mala-slova-box {
